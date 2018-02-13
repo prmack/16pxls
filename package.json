@@ -1,22 +1,15 @@
 {
   "name": "sixteenpixels",
   "version": "1.0.0",
-  "description": "16px Iconset",
+  "description": "16px IconSet",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prmack/sixteenpixels.git"
-  },
-  "author": "Paul Mackenzie",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prmack/sixteenpixels/issues"
-  },
-  "homepage": "https://github.com/prmack/sixteenpixels#readme",
+  "repository": "git@github.com:prmack/sixteenpixels.git",
+  "author": "Paul Mackenzie <paul@whatspauldoing.com>",
+  "license": "MIT",
   "devDependencies": {
-    "grunt": "^1.0.2"
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-svg-to-png": "^0.2.5",
+    "grunt-svgo": "^0.1.0"
   }
 }
