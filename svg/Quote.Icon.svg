@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Quote.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-275.000000, -45.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-1">
+                <path d="M200.035527,3 C200.278689,1.30385293 201.740352,0 203.5,0 C203.669761,0 203.836699,0.0121163173 204,0.0355274459 L204,2.08474107 C203.843611,2.02981844 203.675318,2 203.5,2 C202.842337,2 202.289344,2.41740381 202.084741,3 L206,3 L206,9 L200,9 L200,3 L200.035527,3 Z M215.964473,10 L216,10 L216,16 L210,16 L210,10 L213.915259,10 C213.710656,9.41740381 213.157663,9 212.5,9 C212.324682,9 212.156389,9.03044463 212,9.08622209 L212,7.03552745 C212.163301,7.01211632 212.330239,7 212.5,7 C214.259648,7 215.721311,8.30385293 215.964473,10 Z M214,12 L212,12 L212,14 L214,14 L214,12 Z M202,5 L202,7 L204,7 L204,5 L202,5 Z" id="Quote.Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

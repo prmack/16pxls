@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Smile.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-208.000000, -93.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-2" transform="translate(0.000000, 48.000000)">
+                <path d="M144.873705,9 C144.428754,10.7252272 142.860047,12 141,12 C139.136701,12 137.570969,10.7227691 137.126404,9 L144.873705,9 Z M133,8 C133,3.581722 136.590712,0 141,0 C145.418278,0 149,3.59071231 149,8 C149,12.418278 145.409288,16 141,16 C136.581722,16 133,12.4092877 133,8 Z M135,8 C135,11.3069658 137.686292,14 141,14 C144.306966,14 147,11.3137085 147,8 C147,4.69303423 144.313708,2 141,2 C137.693034,2 135,4.6862915 135,8 Z M138,6 C138,5.44771525 138.443865,5 139,5 C139.552285,5 140,5.44386482 140,6 C140,6.55228475 139.556135,7 139,7 C138.447715,7 138,6.55613518 138,6 Z M142,6 C142,5.44771525 142.443865,5 143,5 C143.552285,5 144,5.44386482 144,6 C144,6.55228475 143.556135,7 143,7 C142.447715,7 142,6.55613518 142,6 Z" id="Smile.Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "sixteenpixels",
+  "version": "1.0.0",
+  "description": "16px Iconset",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prmack/sixteenpixels.git"
+  },
+  "author": "Paul Mackenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prmack/sixteenpixels/issues"
+  },
+  "homepage": "https://github.com/prmack/sixteenpixels#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2"
+  }
+}

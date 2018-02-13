@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Plus.Circle.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-75.000000, -189.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-4" transform="translate(0.000000, 144.000000)">
+                <path d="M9,7 L12,7 L12,9 L9,9 L9,12 L7,12 L7,9 L4,9 L4,7 L7,7 L7,4 L9,4 L9,7 Z M0,8 C0,3.581722 3.59071231,0 8,0 C12.418278,0 16,3.59071231 16,8 C16,12.418278 12.4092877,16 8,16 C3.581722,16 0,12.4092877 0,8 Z M2,8 C2,11.3069658 4.6862915,14 8,14 C11.3069658,14 14,11.3137085 14,8 C14,4.69303423 11.3137085,2 8,2 C4.69303423,2 2,4.6862915 2,8 Z" id="Plus.Circle.Icon" transform="translate(8.000000, 8.000000) scale(1, -1) translate(-8.000000, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

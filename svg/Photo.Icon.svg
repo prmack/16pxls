@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Photo.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-141.000000, -45.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-1">
+                <path d="M68,2 L68,0 L72,0 L72,2 L82,2 L82,16 L66,16 L66,2 L68,2 Z M68,4 L68,14 L80,14 L80,4 L68,4 Z M77,6 L79,6 L79,8 L77,8 L77,6 Z M69,9 C69,7.34314575 70.3465171,6 72,6 C73.6568542,6 75,7.34651712 75,9 C75,10.6568542 73.6534829,12 72,12 C70.3431458,12 69,10.6534829 69,9 Z M71,9 C71,9.55613518 71.4477153,10 72,10 C72.5561352,10 73,9.55228475 73,9 C73,8.44386482 72.5522847,8 72,8 C71.4438648,8 71,8.44771525 71,9 Z" id="Photo.Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

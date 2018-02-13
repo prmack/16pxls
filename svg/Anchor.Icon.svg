@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Anchor.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-241.000000, -45.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-1">
+                <path d="M173,5.82893718 C171.834808,5.41633292 171,4.30356093 171,3 C171,1.34314575 172.346517,0 174,0 C175.656854,0 177,1.34651712 177,3 C177,4.30572133 176.163734,5.41661138 175,5.82882342 L175,13.9167601 C177.164727,13.5524739 178.940474,12.0259354 179.657874,10 L179,10 L179,8 L182,8 L182,10 L181.747409,10 C180.938501,13.1364169 178.27257,15.5284519 175,15.9378859 L175,16 L173,16 L173,15.9379599 C169.722768,15.5283596 167.061137,13.1324195 166.252809,10 L166,10 L166,8 L169,8 L169,10 L168.342353,10 C169.059215,12.0238063 170.832597,13.5524247 173,13.9168497 L173,5.82893718 Z M173,3 C173,3.55613518 173.447715,4 174,4 C174.556135,4 175,3.55228475 175,3 C175,2.44386482 174.552285,2 174,2 C173.443865,2 173,2.44771525 173,3 Z" id="Anchor.Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

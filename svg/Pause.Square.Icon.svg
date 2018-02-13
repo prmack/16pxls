@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Pause.Square.Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-241.000000, -141.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+            <g id="Row-3" transform="translate(0.000000, 96.000000)">
+                <path d="M166,0 L182,0 L182,16 L166,16 L166,0 Z M168,2 L168,14 L180,14 L180,2 L168,2 Z M175,5 L177,5 L177,11 L175,11 L175,5 Z M171,5 L173,5 L173,11 L171,11 L171,5 Z" id="Pause.Square.Icon" transform="translate(174.000000, 8.000000) scale(1, -1) translate(-174.000000, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
