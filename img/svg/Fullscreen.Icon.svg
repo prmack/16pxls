@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Fullscreen.Icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-308.000000, -235.000000)" opacity="0.9">
-        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="x16" stroke="none" stroke-width="1"  fill-rule="evenodd" transform="translate(-308.000000, -235.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" >
             <g id="Row-5" transform="translate(0.000000, 190.000000)">
                 <path d="M247,3.41421356 L242.414214,8 L247,12.5857864 L247,10.0034417 L249,10.0034417 L249,16 L243,16 L243,14.0043804 L245.590167,14.0043804 L241,9.41421356 L236.409833,14.0043804 L239,14.0043804 L239,16 L233,16 L233,10.0034417 L235,10.0034417 L235,12.5857864 L239.585786,8 L235,3.41421356 L235,6.00156429 L233,6.00156429 L233,0 L249,0 L249,6.00156429 L247,6.00156429 L247,3.41421356 Z M245.585161,2.00062558 L243,2.00062558 L243,0.000732421875 L239,0.000732421875 L239,2.00062558 L236.414839,2.00062558 L241,6.58578644 L245.585161,2.00062558 Z" id="Fullscreen.Icon"></path>
             </g>

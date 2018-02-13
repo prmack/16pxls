@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Sound.Icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-241.000000, -235.000000)" opacity="0.9">
-        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="x16" stroke="none" stroke-width="1"  fill-rule="evenodd" transform="translate(-241.000000, -235.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" >
             <g id="Row-5" transform="translate(0.000000, 190.000000)">
                 <path d="M176,2 C179.313708,2 182,4.69303423 182,8 C182,11.3137085 179.306966,14 176,14 L176,12 C178.204644,12 180,10.209139 180,8 C180,5.79535615 178.209139,4 176,4 L176,2 Z M176,6 C177.104569,6 178,6.88772964 178,8 C178,9.1045695 177.11227,10 176,10 L176,6 Z M168,11 L168,13 L166,13 L166,3 L168,3 L168,5 L172,3 L172,13 L168,11 Z M174,0 L174,16 L168,13 L168,3 L174,0 Z" id="Sound.Icon"></path>
             </g>
