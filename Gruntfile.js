@@ -10,24 +10,27 @@ module.exports = function(grunt) {
         }]
       }
     },
-    pngmin : {
-      compile : {
-        options : '.png',
-        force : true
-      },
-      files: [
-        {
-          src : 'img/png/*.png',
-          dest : 'img/png'
-        }
-      ]
+    pngmin: {
+      compile: {
+        options: {
+          ext : '.png',
+          quality : [60, 80],
+          force : true
+        },
+        files: [
+          {
+            src: 'img/png/*.png',
+            dest: 'img/png'
+          }
+        ]
+      }
     }
   });
 
   grunt.registerTask('default');
-  
+
   // Load Tasks
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-pngmin');
   grunt.loadNpmTasks('grunt-svg-to-png');
+  grunt.loadNpmTasks('grunt-pngmin');
 }
