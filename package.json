@@ -8,6 +8,7 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean-fix": "^0.3.4",
     "gulp-clean-sketch": "^1.0.0"
   }
 }
