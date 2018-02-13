@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Frown.Icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-241.000000, -93.000000)" opacity="0.9">
-        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="x16" stroke="none" stroke-width="1"  fill-rule="evenodd" transform="translate(-241.000000, -93.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" >
             <g id="Row-2" transform="translate(0.000000, 48.000000)">
                 <path d="M166,8 C166,3.581722 169.590712,0 174,0 C178.418278,0 182,3.59071231 182,8 C182,12.418278 178.409288,16 174,16 C169.581722,16 166,12.4092877 166,8 Z M168,8 C168,11.3069658 170.686292,14 174,14 C177.306966,14 180,11.3137085 180,8 C180,4.69303423 177.313708,2 174,2 C170.693034,2 168,4.6862915 168,8 Z M170,9 L178,9 L178,11 L170,11 L170,9 Z M171,5 L173,5 L173,7 L171,7 L171,5 Z M175,5 L177,5 L177,7 L175,7 L175,5 Z" id="Frown.Icon"></path>
             </g>

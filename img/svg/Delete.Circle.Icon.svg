@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Delete.Circle.Icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-175.000000, -189.000000)" opacity="0.9">
-        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" fill="#4A4A4A">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="x16" stroke="none" stroke-width="1"  fill-rule="evenodd" transform="translate(-175.000000, -189.000000)" opacity="0.9">
+        <g id="SixteenPixels.Icons" transform="translate(75.000000, 45.000000)" >
             <g id="Row-4" transform="translate(0.000000, 144.000000)">
                 <path d="M109.414214,8 L111.535534,10.1213203 L110.12132,11.5355339 L108,9.41421356 L105.87868,11.5355339 L104.464466,10.1213203 L106.585786,8 L104.464466,5.87867966 L105.87868,4.46446609 L108,6.58578644 L110.12132,4.46446609 L111.535534,5.87867966 L109.414214,8 Z M100,8 C100,3.581722 103.590712,0 108,0 C112.418278,0 116,3.59071231 116,8 C116,12.418278 112.409288,16 108,16 C103.581722,16 100,12.4092877 100,8 Z M102,8 C102,11.3069658 104.686292,14 108,14 C111.306966,14 114,11.3137085 114,8 C114,4.69303423 111.313708,2 108,2 C104.693034,2 102,4.6862915 102,8 Z" id="Delete.Circle.Icon" transform="translate(108.000000, 8.000000) scale(1, -1) translate(-108.000000, -8.000000) "></path>
             </g>
