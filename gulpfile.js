@@ -26,5 +26,4 @@ gulp.task('clean', function(){
   return del(['**/.DS_Store']);
 });
 
-
 gulp.task('default');
