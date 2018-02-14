@@ -7,8 +7,14 @@
   "author": "Paul Mackenzie <paul@whatspauldoing.com>",
   "license": "MIT",
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-clean-fix": "^0.3.4",
-    "gulp-clean-sketch": "^1.0.0"
-  }
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-sketch": "^1.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-raster": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.4"
+  },
+  "dependencies": {}
 }
