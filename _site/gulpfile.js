@@ -7,7 +7,7 @@ var imagemin = require('gulp-imagemin');
 var rename = require('gulp-rename');
 
 gulp.task('processIcons', function() {
-  return gulp.src('dist/icons/svg/*.svg')
+  return gulp.src('dist/svg/*.svg')
     // Clean Sketch Meta
     .pipe(cleanSketch())
     // Minimise SVG
