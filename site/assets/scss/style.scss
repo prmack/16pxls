@@ -20,11 +20,11 @@ AUTHOR URI: http://www.whatspauldoing.com
 @mixin ninja {display:none;}
 @mixin clearfix {overflow:auto;}
 
-$headerfont : Georgia, Serif;
-$bodyfont : Arial, Sans-Serif;
-$headercolor : #30343F;
+$headerfont : 'Libre Baskerville', Serif;
+$bodyfont : 'proximanova-regular', Sans-Serif;
+$headercolor : #2D3142;
 $bodycolor : lighten($headercolor, 20%);
-$highlightcolor : #8075F2;
+$highlightcolor : #EF233C;
 $backgroundcolor : #FFFFFF;
 
 // Body Colors
@@ -32,7 +32,7 @@ $backgroundcolor : #FFFFFF;
 body {font-family:$bodyfont;color:$bodycolor;background:$backgroundcolor;}
 h1, h2, h3, h4 {font-family:$headerfont;color:$headercolor;font-weight:normal;}
 h1, h2, h3 {}
-h1 {font-size:48px;line-height:77px;margin:50px 0 0 0;}
+h1 {font-size:48px;line-height:68px;margin:0 0 45px 0;}
 h2 {font-size:36px;line-height:58px;margin:0 0 60px 0;}
 h3 {font-size:32px;line-height:28px;margin:0 0 30px 0;}
 h4 {font-size:24px;line-height:28px;margin:0 0 10px 0;}
@@ -43,3 +43,9 @@ p {font-size: 16px;line-height:25px;margin:0 0 25px 0;color:$bodycolor;
 a {color:$highlightcolor;text-decoration:underline;
 	&:hover {color:$highlightcolor;text-decoration:none;}
 }
+
+header {
+	h1, p {text-align:center;}
+}
+
+footer {font-size:12px;text-align:center;}
