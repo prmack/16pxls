@@ -35,5 +35,5 @@
   src: url('proximanova-bold-webfont.woff') format('woff2'),
        url('proximanova-bold-webfont.woff') format('woff');
   font-weight: bold;
-  font-style: normal;
+  font-style: bold;
 }

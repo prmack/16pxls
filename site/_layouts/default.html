@@ -1,4 +1,13 @@
 {% include header.html %}
   <div class="content">
-  </div>
+    <div class="row">
+			<header class="col-lg-8 offset-lg-2">
+        {% for item in site.hero %}
+          <h1>{{ item.title }}</h1>
+  				<p>{{ item.content }}</p>
+        {% endfor %}
+        <a class="btn btn-primary" href="#" role="button">Download</a>
+      </header>
+		</div>
+  </div> <!-- CONTENT END -->
 {% include footer.html %}
