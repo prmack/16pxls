@@ -1,0 +1,45 @@
+/*
+
+FILE NAME: base.css
+DESCRIPTION: .com
+VERSION: 3.0
+AUTHOR: Paul Mackenzie
+AUTHOR URI: http://www.whatspauldoing.com
+
+/* Style.less */
+
+@import url('../css/bootstrap.min.css');
+
+@mixin border-radius ($radius) {-moz-border-radius:$radius;-webkit-border-radius:$radius;border-radius:$radius;}
+@mixin text-shadow {text-shadow:0 1px 2px rgba(0,0,0,.50);}
+@mixin box-border {-moz-box-sizing:border-box;webkit-box-sizing:border-box;box-sizing:border-box;}
+@mixin shadow ($x, $y, $b, $color) {-moz-box-shadow: $x $y $b $color;-webkit-box-shadow: $x $y $b $color;box-shadow: $x $y $b $color;}
+@mixin border ($width: 1px 1px 1px 1px, $color: #F1F1F1) {border-width:$width;border-style:solid;border-color:$color;}
+@mixin columns ($number, $width, $gap) {-webkit-columns:$number $width;-moz-columns:$number $width;columns:$number $width;-webkit-column-gap:$gap;-moz-column-gap:$gap;column-gap:$gap;}
+@mixin casefont($font-size:12px) {font-size:$font-size;text-transform:uppercase;}
+@mixin ninja {display:none;}
+@mixin clearfix {overflow:auto;}
+
+$headerfont : Georgia, Serif;
+$bodyfont : Arial, Sans-Serif;
+$headercolor : #30343F;
+$bodycolor : lighten($headercolor, 20%);
+$highlightcolor : #8075F2;
+$backgroundcolor : #FFFFFF;
+
+// Body Colors
+
+body {font-family:$bodyfont;color:$bodycolor;background:$backgroundcolor;}
+h1, h2, h3, h4 {font-family:$headerfont;color:$headercolor;font-weight:normal;}
+h1, h2, h3 {}
+h1 {font-size:48px;line-height:77px;margin:50px 0 0 0;}
+h2 {font-size:36px;line-height:58px;margin:0 0 60px 0;}
+h3 {font-size:32px;line-height:28px;margin:0 0 30px 0;}
+h4 {font-size:24px;line-height:28px;margin:0 0 10px 0;}
+p {font-size: 16px;line-height:25px;margin:0 0 25px 0;color:$bodycolor;
+	&:last-child {margin:0;}
+	span {color:$highlightcolor;}
+}
+a {color:$highlightcolor;text-decoration:underline;
+	&:hover {color:$highlightcolor;text-decoration:none;}
+}
