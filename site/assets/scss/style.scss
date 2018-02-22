@@ -51,8 +51,14 @@ a {color:$highlightcolor;
 }
 
 .icon {width:16px;height:16px;display:block;
-	&.download-icon {-webkit-mask-image:url('../images/icons/svg/Download-Icon.svg');background-color:#FFFFFF;}
+	&.download-icon {background:url('../images/icons/svg/Download-Icon.svg');}
 	&.skull-icon {background:url('../images/icons/svg/Skull-Icon.svg');}
+}
+
+.navbar {margin:25px 0 0 0;
+	.navbar-brand {@include casefont(16px);font-weight:bold;
+		span {color:$bodycolor;}
+	}
 }
 
 footer {font-size:12px;line-height:20px;text-align:center;
