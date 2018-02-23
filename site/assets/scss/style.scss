@@ -1,8 +1,8 @@
 /*
 
-FILE NAME: base.css
+FILE NAME: style.css
 DESCRIPTION: .com
-VERSION: 3.0
+VERSION: 1.0
 AUTHOR: Paul Mackenzie
 AUTHOR URI: http://www.whatspauldoing.com
 
@@ -58,6 +58,9 @@ a {color:$highlightcolor;
 .navbar {margin:25px 0 0 0;
 	.navbar-brand {@include casefont(16px);font-weight:bold;
 		span {color:$bodycolor;}
+		&:hover {color:$bodycolor;
+			span {color:$highlightcolor;}
+		}
 	}
 }
 
