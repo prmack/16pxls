@@ -30,10 +30,10 @@
     font-style: normal;
 }
 
-@@font-face {
+@font-face {
   font-family: 'Proxima Nova';
-  src: url('proximanova-bold-webfont.woff') format('woff2'),
+  src: url('proximanova-bold-webfont.woff2') format('woff2'),
        url('proximanova-bold-webfont.woff') format('woff');
   font-weight: bold;
-  font-style: bold;
+  font-style: normal;
 }

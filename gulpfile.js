@@ -8,7 +8,8 @@ const rename = require('gulp-rename');
 const svgcss = require('gulp-svg-css');
 const embedSvg = require('gulp-embed-svg');
 const sass = require('gulp-sass');
-const watchScss = gulp.watch('site/assets/scss/*', ['sass']);
+const sassWatcher = gulp.watch(['site/assets/scss/*'], ['sass']);
+const svgWatcher = gulp.watch(['site/_site/*.html'], ['embedSVG']);
 
 
 // Clean & Minimise SVG
@@ -73,7 +74,7 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('site/assets/css'));
 });
 
-watchScss.on('change', function(event){
+sassWatcher.on('change', function(event){
   console.log('Compiling Css...');
 });
 
