@@ -8,21 +8,42 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var watchScss = gulp.watch('site/assets/scss/*', ['sass']);
 
-gulp.task('processIcons', function() {
+// Clean & Minimise SVG
+gulp.task('cleanSVG', function(cb){
   return gulp.src('dist/icons/svg/*.svg')
-    // Clean Sketch Meta
     .pipe(cleanSketch())
-    // Minimise SVG
-    .pipe(svgmin())
+    .pipe(svgmin({js2svg : {pretty : true}}))
     .pipe(gulp.dest('dist/icons/svg/'))
-    // Convert to .PNG
-    .pipe(raster())
-    .pipe(rename({extname : '.png'}))
-    // Optimise PNG
-    .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})]))
-    .pipe(gulp.dest('dist/icons/png'));
+    cb(err);
 });
 
+// Create PNG
+gulp.task('createPNG', ['cleanSVG'], function(cb) {
+  return gulp.src('dist/icons/svg/*.svg')
+    .pipe(raster())
+    .pipe(rename({extname : '.png'}))
+    .pipe(gulp.dest('dist/icons/png/@1x'))
+    cb(err);
+});
+
+// Scale for Retina
+gulp.task('createRetinaPNG', ['cleanSVG'], function(cb){
+  return gulp.src('dist/icons/svg/*.svg')
+    .pipe(raster({scale : 2}))
+    .pipe(rename({extname : '.png', suffix : '@2x'}))
+    .pipe(gulp.dest('dist/icons/png/@2x'))
+    cb(err)
+});
+
+gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
+  return gulp.src('dist/icons/png/**/*.png')
+    .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})]))
+    .pipe(gulp.dest('dist/icons/png/'))
+});
+
+gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimiseImages']);
+
+// Compile & Minimise SCSS
 gulp.task('sass', function(){
   return gulp.src('site/assets/scss/*')
     .pipe(sass({outputStyle : 'compressed'}).on('error', sass.logError))
@@ -33,6 +54,7 @@ watchScss.on('change', function(event){
   console.log('Compiling Css...');
 });
 
+// Remove .DS_Store
 gulp.task('clean', function(){
   return del(['**/.DS_Store']);
 });
