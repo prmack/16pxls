@@ -1,4 +1,4 @@
-{% include header.html %}
+<html><head></head><body>{% include header.html %}
   <div class="content">
     <div class="row">
 			<header class="col-lg-8 offset-lg-2 text-center">
@@ -8,8 +8,9 @@
             {{ item.content }}
           </div>
         {% endfor %}
-        <a class="btn btn-primary" href="#" role="button"><span class="icon download-icon"></span>Download</a>
+        <a class="btn btn-primary" href="#" role="button"><span class="icon"><img src="assets/images/icons/svg/Download.svg" class="svg"></span>Download</a>
       </header>
 		</div>
   </div> <!-- CONTENT END -->
 {% include footer.html %}
+</body></html>
