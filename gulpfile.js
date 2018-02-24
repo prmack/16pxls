@@ -46,7 +46,7 @@ gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
 });
 
 // Generate Css
-gulp.task('genCss', function(){
+gulp.task('genCss', ['cleanSVG'], function(){
   return gulp.src('dist/icons/svg/*.svg')
     .pipe(svgcss({
       fileName : '16px-icons'
@@ -64,7 +64,7 @@ gulp.task('embedSVG', function(){
     .pipe(gulp.dest('site/_site'))
 });
 
-gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimiseImages']);
+gulp.task('processIcons', ['cleanSVG', 'genCss', 'createPNG', 'createRetinaPNG', 'optimiseImages']);
 
 // Compile & Minimise SCSS
 gulp.task('sass', function(){
