@@ -29,7 +29,7 @@ gulp.task('createPNG', ['cleanSVG'], function(cb) {
 });
 
 // Scale for Retina
-gulp.task('createRetinaPNG', ['cleanSVG'], function(cb){
+gulp.task('createRetinaPNG', ['createPNG', 'cleanSVG'], function(cb){
   return gulp.src('dist/icons/svg/*.svg')
     .pipe(raster({scale : 2}))
     .pipe(rename({extname : '.png', suffix : '@2x'}))
@@ -45,7 +45,7 @@ gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
 });
 
 // Generate Css
-gulp.task('genCss', ['optimiseImages'], function(){
+gulp.task('genCss', ['cleanSVG'], function(){
   return gulp.src('dist/icons/svg/*.svg')
     .pipe(svgcss({
       fileName : '16px-icons'
@@ -72,9 +72,7 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('site/assets/css'));
 });
 
-sassWatcher.on('change', function(event){
-  console.log('Compiling Css...');
-});
+sassWatcher.on('change', function(event){});
 
 // Remove .DS_Store
 gulp.task('clean', function(){

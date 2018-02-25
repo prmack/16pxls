@@ -1,5 +1,5 @@
 ---
-title : 120 Free 16px Icons designed with balanced interfaces in mind.
+title : 126 Free 16px Icons designed with balanced interfaces in mind.
 btnText : Download v1.0.0
 ---
 
