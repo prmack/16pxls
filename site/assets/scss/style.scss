@@ -78,6 +78,13 @@ a {color:$highlightcolor;
 	.btn-link {padding-right:0;}
 }
 
+.icon-list {margin:35px 0;
+	.icon-container {padding:10px;
+		svg {margin:0 0 5px 0;}
+		span {display:block;@include casefont(12px);}
+	}
+}
+
 .features {margin:45px 0 0 0;
 	h4 {font-weight:bold;}
 	svg {fill:$highlightcolor;margin:0 0 15px 0;}

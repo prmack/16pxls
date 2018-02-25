@@ -1,4 +1,4 @@
-<html><head></head><body>{% include header.html %}
+{% include header.html %}
   <div class="content">
     <div class="row">
 			<header class="col-lg-10 offset-lg-1 text-center">
@@ -12,6 +12,19 @@
         {% endfor %}
       </header>
 		</div>
+    <section class="icon-list">
+      {% assign iconset = site.static_files | where: "image", true %}
+      <div class="row">
+        {% for icon in iconset %}
+          <div class="col-2 text-center">
+            <div class="icon-container">
+              <img src="{{ icon.path }}" class="svg">
+              <span>{{ icon.basename }}</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
     <section class="features">
       <div class="row">
         {% for item in site.data.features %}
@@ -25,4 +38,3 @@
     </section>
   </div> <!-- CONTENT END -->
 {% include footer.html %}
-</body></html>
