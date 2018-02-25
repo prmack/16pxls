@@ -1,14 +1,15 @@
 <html><head></head><body>{% include header.html %}
   <div class="content">
     <div class="row">
-			<header class="col-lg-8 offset-lg-2 text-center">
+			<header class="col-lg-10 offset-lg-1 text-center">
         {% for item in site.hero %}
           <h1>{{ item.title }}</h1>
-          <div class="col-lg-10 offset-lg-1">
+          <div class="col-lg-8 offset-lg-2">
             {{ item.content }}
           </div>
+          <a class="btn btn-primary" href="#" role="button"><span class="icon"><img src="assets/images/icons/svg/Download.svg" class="svg"></span>{{item.btnText}}</a>
+          <a href="" class="btn btn-outline-primary" href="#" role="button">Github</a>
         {% endfor %}
-        <a class="btn btn-primary" href="#" role="button"><span class="icon"><img src="assets/images/icons/svg/Download.svg" class="svg"></span>Download</a>
       </header>
 		</div>
   </div> <!-- CONTENT END -->

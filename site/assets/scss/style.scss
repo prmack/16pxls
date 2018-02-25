@@ -43,10 +43,19 @@ a {color:$highlightcolor;
 	&:hover {color:$highlightcolor;}
 }
 
-.btn {@include casefont(14px);@include border-radius(3px);padding:6px 15px;
+.btn {@include casefont(14px);@include border-radius(3px);padding:6px 15px;letter-spacing:0.5px;
+	.icon {display:inline-block;position:relative;top:3px;margin:0 15px 0 0;}
 	&.btn-primary {background:$highlightcolor;border:1px solid $highlightcolor;
-		&:hover {background:darken($highlightcolor, 10%);}
+		&:hover {background:#FFFFFF;@include border(1px, $highlightcolor);color:$highlightcolor;
+			svg {fill:$highlightcolor;}
+		}
 		svg {fill:#FFFFFF;}
+	}
+	&.btn-outline-primary {@include border(1px, $highlightcolor);color:$highlightcolor;
+		&:hover {background:#FFFFFF;color:$bodycolor;@include border(1px, $bodycolor);
+			svg {fill:$bodycolor;}
+		}
+		svg {fill:$highlightcolor;}
 	}
 	&.btn-link {color:$highlightcolor;font-weight:bold;
 		&:hover {color:$bodycolor;text-decoration:none;
@@ -54,7 +63,6 @@ a {color:$highlightcolor;
 		}
 		svg {fill:$highlightcolor;}
 	}
-	.icon {display:inline-block;position:relative;top:2px;margin:0 15px 0 0;}
 }
 
 .icon {width:16px;height:16px;display:block;}

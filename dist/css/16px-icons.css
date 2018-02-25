@@ -1,3 +1,9 @@
+.icon-download {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M7 5.222V0h2v5.193l1.107-1.107L11.52 5.5 7.986 9.036 4.45 5.5l1.414-1.414L7 5.222zM16 11v5H0v-5h2v3h12v-3h2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.icon-external {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M14 3.5L8.5 9 7 7.5 12.5 2H10V0h6v6h-2V3.5zM6 0v2H2v12h12v-4h2v6H0V0h6z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
 .icon-share {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M10.026 3.393a3 3 0 1 1 .908 1.782l-4.95 2.522a3.036 3.036 0 0 1 0 .606l4.95 2.522a3 3 0 1 1-.908 1.782L5.13 10.112a3 3 0 1 1 0-4.225l4.896-2.494zM3 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm0-10a1 1 0 1 0 0 2 1 1 0 0 0 0-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
