@@ -1,9 +1,12 @@
-.icon-download {
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M7 5.222V0h2v5.193l1.107-1.107L11.52 5.5 7.986 9.036 4.45 5.5l1.414-1.414L7 5.222zM16 11v5H0v-5h2v3h12v-3h2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+.icon-diamond {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 5.04V4l4-4h8l4 4v1.04L8 16 0 5.04zM2 5l6 9-4-9H2zm12 0h-2l-4 9 6-9zM6 5l2 6 2-6H6zM4 2L2 4h2l2-3-2 1zm8 0l-2-1 2 3h2l-2-2zM8 1L6 4h4L8 1z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-.icon-external {
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M14 3.5L8.5 9 7 7.5 12.5 2H10V0h6v6h-2V3.5zM6 0v2H2v12h12v-4h2v6H0V0h6z' fill-rule='evenodd'/%3E%3C/svg%3E");
+.icon-justify-left {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h2v16H0V0zm4 9h12v2H4V9zm0-4h10v2H4V5zm0-4h12v2H4V1zm0 12h10v2H4v-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-.icon-share {
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M10.026 3.393a3 3 0 1 1 .908 1.782l-4.95 2.522a3.036 3.036 0 0 1 0 .606l4.95 2.522a3 3 0 1 1-.908 1.782L5.13 10.112a3 3 0 1 1 0-4.225l4.896-2.494zM3 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm0-10a1 1 0 1 0 0 2 1 1 0 0 0 0-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+.icon-menu {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h4v4H0V0zm0 6h4v4H0V6zm0 6h4v4H0v-4zM6 0h4v4H6V0zm0 6h4v4H6V6zm0 6h4v4H6v-4zm6-12h4v4h-4V0zm0 6h4v4h-4V6zm0 6h4v4h-4v-4z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.icon-text {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h14v2h2v14H0V0zm2 2v12h12V4h-1.998V2H2zm2 6h8v2H4V8zm0-4h6v2H4V4z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
