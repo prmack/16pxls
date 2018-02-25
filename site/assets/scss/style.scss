@@ -80,6 +80,7 @@ a {color:$highlightcolor;
 
 .icon-list {margin:35px 0;
 	.icon-container {padding:10px;margin:0 0 50px 0;
+		&:hover {background:lighten($bodycolor, 55%);@include border-radius(3px);}
 		svg {margin:0 0 5px 0;}
 		span {display:block;@include casefont(12px);}
 	}

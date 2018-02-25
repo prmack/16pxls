@@ -9,8 +9,6 @@ const svgcss = require('gulp-svg-css');
 const embedSvg = require('gulp-embed-svg');
 const sass = require('gulp-sass');
 const sassWatcher = gulp.watch(['site/assets/scss/*'], ['sass']);
-const svgWatcher = gulp.watch(['site/_site/*.html'], ['embedSVG']);
-
 
 // Clean & Minimise SVG
 gulp.task('cleanSVG', function(cb){
@@ -47,7 +45,7 @@ gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
 });
 
 // Generate Css
-gulp.task('genCss', ['cleanSVG'], function(){
+gulp.task('genCss', ['optimiseImages'], function(){
   return gulp.src('dist/icons/svg/*.svg')
     .pipe(svgcss({
       fileName : '16px-icons'
@@ -57,7 +55,7 @@ gulp.task('genCss', ['cleanSVG'], function(){
 
 // SVG Embed
 gulp.task('embedSVG', function(){
-  return gulp.src('site/_site/*.html')
+  return gulp.src('site/_site/index.html')
     .pipe(embedSvg({
       selectors : '.svg',
       root : 'site/'
@@ -65,7 +63,7 @@ gulp.task('embedSVG', function(){
     .pipe(gulp.dest('site/_site'))
 });
 
-gulp.task('processIcons', ['cleanSVG', 'genCss', 'createPNG', 'createRetinaPNG', 'optimiseImages']);
+gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimiseImages', 'genCss']);
 
 // Compile & Minimise SCSS
 gulp.task('sass', function(){
