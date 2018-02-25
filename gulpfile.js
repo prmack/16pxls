@@ -52,7 +52,7 @@ gulp.task('genCss', ['cleanSVG'], function(){
     .pipe(svgcss({
       fileName : '16px-icons'
     }))
-    .pipe(gulp.dest('dist/css/'))
+    .pipe(gulp.dest('dist/icons/css/'))
 });
 
 // SVG Embed
@@ -81,6 +81,11 @@ sassWatcher.on('change', function(event){
 // Remove .DS_Store
 gulp.task('clean', function(){
   return del(['**/.DS_Store']);
+});
+
+// Remove icons
+gulp.task('cleanIcons', function(){
+  return del(['dist/icons/svg/*.svg', 'dist/icons/png/@1x/*.png', 'dist/icons/png/@2x/*.png', 'dist/icons/css/*.css'])
 });
 
 gulp.task('default');
