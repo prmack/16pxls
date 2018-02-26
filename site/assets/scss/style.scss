@@ -67,7 +67,7 @@ a {color:$highlightcolor;
 
 .icon {width:16px;height:16px;display:block;}
 
-.navbar {margin:25px 0 0 0;
+.navbar {background:#FFFFFF;padding:15px;
 	.navbar-brand {@include casefont(16px);font-weight:bold;
 		span {color:$bodycolor;}
 		&:hover {color:$bodycolor;
@@ -77,6 +77,8 @@ a {color:$highlightcolor;
 	form {margin:0;}
 	.btn-link {padding-right:0;}
 }
+
+.content {margin:55px 0 0 0;}
 
 .icon-list {margin:35px 0;
 	.icon-container {padding:10px;margin:0 0 50px 0;
