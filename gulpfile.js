@@ -12,45 +12,45 @@ const sassWatcher = gulp.watch(['site/assets/scss/*'], ['sass']);
 
 // Clean & Minimise SVG
 gulp.task('cleanSVG', function(cb){
-  return gulp.src('dist/icons/svg/*.svg')
+  return gulp.src('dist/svg/*.svg')
     .pipe(cleanSketch())
     .pipe(svgmin({js2svg : {pretty : true}}))
-    .pipe(gulp.dest('dist/icons/svg/'))
+    .pipe(gulp.dest('dist/svg'))
     cb(err);
 });
 
 // Create PNG
 gulp.task('createPNG', ['cleanSVG'], function(cb) {
-  return gulp.src('dist/icons/svg/*.svg')
+  return gulp.src('dist/svg/*.svg')
     .pipe(raster())
     .pipe(rename({extname : '.png'}))
-    .pipe(gulp.dest('dist/icons/png/@1x'))
+    .pipe(gulp.dest('dist/png/@1x'))
     cb(err);
 });
 
 // Scale for Retina
 gulp.task('createRetinaPNG', ['createPNG', 'cleanSVG'], function(cb){
-  return gulp.src('dist/icons/svg/*.svg')
+  return gulp.src('dist/svg/*.svg')
     .pipe(raster({scale : 2}))
     .pipe(rename({extname : '.png', suffix : '@2x'}))
-    .pipe(gulp.dest('dist/icons/png/@2x'))
+    .pipe(gulp.dest('dist/png/@2x'))
     cb(err)
 });
 
 // Optimise Images
 gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
-  return gulp.src('dist/icons/png/**/*.png')
+  return gulp.src('dist/png/**/*.png')
     .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})]))
-    .pipe(gulp.dest('dist/icons/png/'))
+    .pipe(gulp.dest('dist/png'))
 });
 
 // Generate Css
 gulp.task('genCss', ['cleanSVG'], function(){
-  return gulp.src('dist/icons/svg/*.svg')
+  return gulp.src('dist/svg/*.svg')
     .pipe(svgcss({
       fileName : '16px-icons'
     }))
-    .pipe(gulp.dest('dist/icons/css/'))
+    .pipe(gulp.dest('dist/css'))
 });
 
 // SVG Embed
@@ -69,7 +69,7 @@ gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimise
 gulp.task('sass', function(){
   return gulp.src('site/assets/scss/*')
     .pipe(sass({outputStyle : 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('site/assets/css'));
+    .pipe(gulp.dest('dist/assets/css'));
 });
 
 sassWatcher.on('change', function(event){});
@@ -81,7 +81,7 @@ gulp.task('clean', function(){
 
 // Remove icons
 gulp.task('cleanIcons', function(){
-  return del(['dist/icons/svg/*.svg', 'dist/icons/png/@1x/*.png', 'dist/icons/png/@2x/*.png', 'dist/icons/css/*.css'])
+  return del(['dist/svg/*.svg', 'dist/png/@1x/*.png', 'dist/png/@2x/*.png', 'dist/css/*.css'])
 });
 
 gulp.task('default');

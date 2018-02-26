@@ -199,9 +199,6 @@
 .icon-menu-two {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h16v7H0V0zm2 2v3h12V2H2zM0 9h16v7H0V9zm2 2v3h12v-3H2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-.icon-menu {
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h4v4H0V0zm0 6h4v4H0V6zm0 6h4v4H0v-4zM6 0h4v4H6V0zm0 6h4v4H6V6zm0 6h4v4H6v-4zm6-12h4v4h-4V0zm0 6h4v4h-4V6zm0 6h4v4h-4v-4z' fill-rule='evenodd'/%3E%3C/svg%3E");
-}
 .icon-microphone {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M16 8c0 4.418-3.59 8-8 8-4.418 0-8-3.59-8-8h2c0 3.307 2.686 6 6 6 3.307 0 6-2.686 6-6h2zM4 3.996a4 4 0 0 1 8 0v4.008a4 4 0 0 1-8 0V3.996zM8 2a2 2 0 0 0-2 2v4a2 2 0 0 0 4 0V4a2 2 0 0 0-2-2zM6 5h4v2H6V5z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
