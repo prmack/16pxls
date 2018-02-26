@@ -6,9 +6,6 @@ const raster = require('gulp-raster');
 const imagemin = require('gulp-imagemin');
 const rename = require('gulp-rename');
 const svgcss = require('gulp-svg-css');
-const embedSvg = require('gulp-embed-svg');
-const sass = require('gulp-sass');
-const sassWatcher = gulp.watch(['site/assets/scss/*'], ['sass']);
 
 // Clean & Minimise SVG
 gulp.task('cleanSVG', function(cb){
@@ -53,26 +50,7 @@ gulp.task('genCss', ['cleanSVG'], function(){
     .pipe(gulp.dest('dist/css'))
 });
 
-// SVG Embed
-gulp.task('embedSVG', function(){
-  return gulp.src('site/_site/index.html')
-    .pipe(embedSvg({
-      selectors : '.svg',
-      root : 'site/'
-    }))
-    .pipe(gulp.dest('site/_site'))
-});
-
 gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimiseImages', 'genCss']);
-
-// Compile & Minimise SCSS
-gulp.task('sass', function(){
-  return gulp.src('site/assets/scss/*')
-    .pipe(sass({outputStyle : 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('site/assets/css'));
-});
-
-sassWatcher.on('change', function(event){});
 
 // Remove .DS_Store
 gulp.task('clean', function(){
