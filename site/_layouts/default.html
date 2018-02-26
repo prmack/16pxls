@@ -12,6 +12,16 @@
         {% endfor %}
       </header>
 		</div>
+    <section class="features">
+      <div class="row">
+        {% for item in site.data.features %}
+          <div class="col-lg-3">
+            <h4 class="text-center">{{ item.title }}</h4>
+            <p>{{ item.content }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
     <section class="icon-list">
       {% assign iconset = site.static_files | where: "image", true %}
       <div class="row">
@@ -25,16 +35,11 @@
         {% endfor %}
       </div>
     </section>
-    <section class="features">
-      <div class="row">
-        {% for item in site.data.features %}
-          <div class="col-lg-3 text-center">
-            <img src="assets/images/icons/svg/{{ item.icon }}.svg" class="svg">
-            <h4>{{ item.title }}</h4>
-            <p>{{ item.content }}</p>
-          </div>
-        {% endfor %}
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 text-center">
+        <a class="btn btn-primary" href="#" role="button"><span class="icon"><img src="assets/images/icons/svg/Download.svg" class="svg"></span>Download V1.0.0</a>
+        <a href="" class="btn btn-outline-primary" href="#" role="button">Github</a>
       </div>
-    </section>
+    </div>
   </div> <!-- CONTENT END -->
 {% include footer.html %}

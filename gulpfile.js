@@ -69,7 +69,7 @@ gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimise
 gulp.task('sass', function(){
   return gulp.src('site/assets/scss/*')
     .pipe(sass({outputStyle : 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('dist/assets/css'));
+    .pipe(gulp.dest('site/assets/css'));
 });
 
 sassWatcher.on('change', function(event){});
