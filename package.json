@@ -1,9 +1,9 @@
 {
-  "name": "sixteenpixels",
+  "name": "16pxls",
   "version": "1.0.0",
   "description": "16px IconSet",
-  "main": "index.html",
-  "repository": "git@github.com:prmack/sixteenpixels.git",
+  "main": "",
+  "repository": "git@github.com:prmack/16pxls.git",
   "author": "Paul Mackenzie <paul@whatspauldoing.com>",
   "license": "MIT",
   "devDependencies": {
