@@ -20,10 +20,17 @@ Add the class `.icon-*` replacing the `*` with the name of the icon you want to 
 
 This will add the icon as an SVG background image.
 
+### Font
+
+Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/fonts/` folder you'll find the `demo.html` and `readme.txt` detailing how to use it.
+
 #### Included Files
 
 - .SVG
 - .PNG
-- .GIF
 - .JPG
 - .CSS
+
+#### License
+
+(https://choosealicense.com/licenses/apache-2.0/)[Apache license 2.0]
