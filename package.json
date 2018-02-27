@@ -5,7 +5,7 @@
   "main": "",
   "repository": "git@github.com:prmack/16pxls.git",
   "author": "Paul Mackenzie <paul@whatspauldoing.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
