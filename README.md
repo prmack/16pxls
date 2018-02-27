@@ -1,6 +1,6 @@
 # 16PXLS
 
-16x16 pixel icon set. Built specifically for balanced interfaces. Available in multiple file types. Free to use for both Commercial and Public work. Please don't host for download elsewhere.
+16x16 pixel icon set. Built specifically for balanced interfaces. Available in multiple file types. Free to use for both Commercial and Personal work. Please don't host for download elsewhere.
 
 ## Documentation
 

@@ -85,7 +85,7 @@ gulp.task('iconList', function(){
     flatten : true,
     removeExtensions: true
   }))
-  .pipe(gulp.dest('dist/reference/assets/json'))
+  .pipe(gulp.dest('./'))
 });
 
 // Remove .DS_Store
@@ -95,7 +95,7 @@ gulp.task('clean', function(){
 
 // Clear Icons from Dist
 gulp.task('cleanIcons', function(){
-  return del(['dist/svg/*.svg', 'dist/png/@1x/*.png', 'dist/png/@2x/*.png', 'dist/css/*.css'])
+  return del(['dist/svg/*.svg', 'dist/png/**/*.png', 'dist/css/*.css', 'dist/jpg/**/*.jpg'])
 });
 
 gulp.task('default');
