@@ -1,3 +1,4 @@
 /sketch
 /node_modules
 .DS_Store
+/dist/docs/assets/scss
