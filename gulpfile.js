@@ -63,8 +63,6 @@ gulp.task('iconList', function(){
   .pipe(gulp.dest('dist/reference/assets/json'))
 });
 
-// Compile HandleBars
-
 // Remove .DS_Store
 gulp.task('clean', function(){
   return del(['**/.DS_Store']);
