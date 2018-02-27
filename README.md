@@ -1,6 +1,11 @@
-# 16.PX
+# 16.PXLS
 
-16x16 pixel icon set
+16x16 pixel icon set.
+
+## Documentation
+
+Reference for each icon can be accessed here
+`dist/docs/index.html`
 
 ## Included Files
 
@@ -8,3 +13,4 @@
 - .PNG
 - .GIF
 - .JPG
+- .CSS

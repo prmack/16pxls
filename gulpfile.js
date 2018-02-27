@@ -32,11 +32,29 @@ gulp.task('createRetinaPNG', ['createPNG', 'cleanSVG'], function(cb){
     .pipe(raster({scale : 2}))
     .pipe(rename({extname : '.png', suffix : '@2x'}))
     .pipe(gulp.dest('dist/png/@2x'))
-    cb(err)
+    cb(err);
 });
 
-// Optimise Images
-gulp.task('optimiseImages', ['createPNG', 'createRetinaPNG'], function(){
+// Create JPG
+gulp.task('createJPG', ['cleanSVG'], function(cb){
+  return gulp.src('dist/svg/*.svg')
+    .pipe(raster())
+    .pipe(rename({extname : '.jpg'}))
+    .pipe(gulp.dest('dist/jpg/@1x'))
+    cb(err);
+});
+
+// Create JPG Scaled for Retina
+gulp.task('createRetinaJPG', ['createJPG', 'cleanSVG'], function(cb){
+  return gulp.src('dist/svg/*.svg')
+    .pipe(raster({scale : 2}))
+    .pipe(rename({extname : '.jpg', suffix : '@2x'}))
+    .pipe(gulp.dest('dist/jpg/@2x'))
+    cb(err);
+});
+
+// Optimise PNGs Images
+gulp.task('optimisePNG', ['createPNG', 'createRetinaPNG'], function(){
   return gulp.src('dist/png/**/*.png')
     .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})]))
     .pipe(gulp.dest('dist/png'))
@@ -51,7 +69,7 @@ gulp.task('genCss', ['cleanSVG'], function(){
     .pipe(gulp.dest('dist/css'))
 });
 
-gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'optimiseImages', 'genCss']);
+gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'createJPG', 'createRetinaJPG' 'optimisePNG', 'genCss']);
 
 // Create .JSON List of Icons
 gulp.task('iconList', function(){
