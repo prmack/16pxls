@@ -4,11 +4,9 @@
 
 ## Documentation
 
-Reference for each icon can be accessed in `docs/` folder.
+Reference for each icon can be accessed from `dist/docs/index.html`.
 
-`dist/docs/index.html`
-
-### Css
+#### Css
 
 Include `16pxls.css` in your `<head>` tags, or `@import url('');` in your Css.
 
@@ -20,17 +18,20 @@ Add the class `.icon-*` replacing the `*` with the name of the icon you want to 
 
 This will add the icon as an SVG background image.
 
-### Font
+#### Font
 
 Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/fonts/` folder you'll find the `demo.html` and `readme.txt` detailing how to use it.
 
-#### Included Files
+## Included File Types
 
 - .SVG
 - .PNG
 - .JPG
 - .CSS
+- .WOFF
+- .TTF
+- .EOT
 
-#### License
+## License
 
 [Apache license 2.0](https://choosealicense.com/licenses/apache-2.0/)
