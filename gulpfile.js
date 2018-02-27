@@ -27,7 +27,7 @@ gulp.task('createPNG', ['cleanSVG'], function(cb) {
 });
 
 // Create PNG Scaled for Retina
-gulp.task('createRetinaPNG', ['createPNG', 'cleanSVG'], function(cb){
+gulp.task('createRetinaPNG', ['createPNG'], function(cb){
   return gulp.src('dist/svg/*.svg')
     .pipe(raster({scale : 2}))
     .pipe(rename({extname : '.png', suffix : '@2x'}))
@@ -36,7 +36,7 @@ gulp.task('createRetinaPNG', ['createPNG', 'cleanSVG'], function(cb){
 });
 
 // Create JPG
-gulp.task('createJPG', ['cleanSVG'], function(cb){
+gulp.task('createJPG', ['createRetinaPNG'], function(cb){
   return gulp.src('dist/svg/*.svg')
     .pipe(raster())
     .pipe(rename({extname : '.jpg'}))
@@ -45,7 +45,7 @@ gulp.task('createJPG', ['cleanSVG'], function(cb){
 });
 
 // Create JPG Scaled for Retina
-gulp.task('createRetinaJPG', ['createJPG', 'cleanSVG'], function(cb){
+gulp.task('createRetinaJPG', ['createJPG'], function(cb){
   return gulp.src('dist/svg/*.svg')
     .pipe(raster({scale : 2}))
     .pipe(rename({extname : '.jpg', suffix : '@2x'}))
@@ -54,10 +54,17 @@ gulp.task('createRetinaJPG', ['createJPG', 'cleanSVG'], function(cb){
 });
 
 // Optimise PNGs Images
-gulp.task('optimisePNG', ['createPNG', 'createRetinaPNG'], function(){
+gulp.task('optimisePNG', ['createRetinaPNG'], function(){
   return gulp.src('dist/png/**/*.png')
     .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})]))
     .pipe(gulp.dest('dist/png'))
+});
+
+// Optimise JPG Images
+gulp.task('optimiseJPG', ['createRetinaJPG'], function(){
+  return gulp.src('dist/jpg/**/*.jpg')
+    .pipe(imagemin([imagemin.jpegtran({progressive: true})]))
+    .pipe(gulp.dest('dist/jpg'))
 });
 
 // Generate Css
@@ -69,7 +76,7 @@ gulp.task('genCss', ['cleanSVG'], function(){
     .pipe(gulp.dest('dist/css'))
 });
 
-gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'createJPG', 'createRetinaJPG' 'optimisePNG', 'genCss']);
+gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'createJPG', 'createRetinaJPG', 'optimisePNG', 'optimiseJPG' , 'genCss']);
 
 // Create .JSON List of Icons
 gulp.task('iconList', function(){
