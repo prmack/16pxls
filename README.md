@@ -33,4 +33,4 @@ Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/f
 
 #### License
 
-(https://choosealicense.com/licenses/apache-2.0/)[Apache license 2.0]
+[Apache license 2.0](https://choosealicense.com/licenses/apache-2.0/)
