@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '16pxls';
-  src:  url('#{$icomoon-font-path}/16pxls.eot?pew2md');
-  src:  url('#{$icomoon-font-path}/16pxls.eot?pew2md#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/16pxls.ttf?pew2md') format('truetype'),
-    url('#{$icomoon-font-path}/16pxls.woff?pew2md') format('woff'),
-    url('#{$icomoon-font-path}/16pxls.svg?pew2md#16pxls') format('svg');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?iaobqa');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?iaobqa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/16pxls.ttf?iaobqa') format('truetype'),
+    url('#{$icomoon-font-path}/16pxls.woff?iaobqa') format('woff'),
+    url('#{$icomoon-font-path}/16pxls.svg?iaobqa#16pxls') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,6 +30,36 @@
   @return unquote("\"") + $str + unquote("\"");
 }
 
+.icon-Mail-Inbox {
+  &:before {
+    content: unicode($icon-Mail-Inbox); 
+  }
+}
+.icon-Mail-Open {
+  &:before {
+    content: unicode($icon-Mail-Open); 
+  }
+}
+.icon-Mail-Outbox {
+  &:before {
+    content: unicode($icon-Mail-Outbox); 
+  }
+}
+.icon-Maximise {
+  &:before {
+    content: unicode($icon-Maximise); 
+  }
+}
+.icon-Menu-Four {
+  &:before {
+    content: unicode($icon-Menu-Four); 
+  }
+}
+.icon-Menu-Grid {
+  &:before {
+    content: unicode($icon-Menu-Grid); 
+  }
+}
 .icon-Menu-Two {
   &:before {
     content: unicode($icon-Menu-Two); 
@@ -180,6 +210,26 @@
     content: unicode($icon-Soup); 
   }
 }
+.icon-Square-Arrow-Down {
+  &:before {
+    content: unicode($icon-Square-Arrow-Down); 
+  }
+}
+.icon-Square-Arrow-Left {
+  &:before {
+    content: unicode($icon-Square-Arrow-Left); 
+  }
+}
+.icon-Square-Arrow-Right {
+  &:before {
+    content: unicode($icon-Square-Arrow-Right); 
+  }
+}
+.icon-Square-Arrow-Up {
+  &:before {
+    content: unicode($icon-Square-Arrow-Up); 
+  }
+}
 .icon-Square-Attention {
   &:before {
     content: unicode($icon-Square-Attention); 
@@ -190,19 +240,9 @@
     content: unicode($icon-Square-Delete); 
   }
 }
-.icon-Square-Down-Arrow {
-  &:before {
-    content: unicode($icon-Square-Down-Arrow); 
-  }
-}
 .icon-Square-Info {
   &:before {
     content: unicode($icon-Square-Info); 
-  }
-}
-.icon-Square-Left-Arrow {
-  &:before {
-    content: unicode($icon-Square-Left-Arrow); 
   }
 }
 .icon-Square-Lock {
@@ -235,11 +275,6 @@
     content: unicode($icon-Square-Plus); 
   }
 }
-.icon-Square-Right-Arrow {
-  &:before {
-    content: unicode($icon-Square-Right-Arrow); 
-  }
-}
 .icon-Square-Skip-Left {
   &:before {
     content: unicode($icon-Square-Skip-Left); 
@@ -253,11 +288,6 @@
 .icon-Square-Tick {
   &:before {
     content: unicode($icon-Square-Tick); 
-  }
-}
-.icon-Square-Up-Arrow {
-  &:before {
-    content: unicode($icon-Square-Up-Arrow); 
   }
 }
 .icon-Stack {
@@ -310,29 +340,239 @@
     content: unicode($icon-Zip); 
   }
 }
-.icon-Align-Bottom {
+.icon-Fork {
   &:before {
-    content: unicode($icon-Align-Bottom); 
+    content: unicode($icon-Fork); 
   }
 }
-.icon-Align-Horizontal {
+.icon-Frown {
   &:before {
-    content: unicode($icon-Align-Horizontal); 
+    content: unicode($icon-Frown); 
   }
 }
-.icon-Align-Left {
+.icon-Fullscreen {
   &:before {
-    content: unicode($icon-Align-Left); 
+    content: unicode($icon-Fullscreen); 
   }
 }
-.icon-Align-Right {
+.icon-Ghost {
   &:before {
-    content: unicode($icon-Align-Right); 
+    content: unicode($icon-Ghost); 
   }
 }
-.icon-Align-Top {
+.icon-Heart {
   &:before {
-    content: unicode($icon-Align-Top); 
+    content: unicode($icon-Heart); 
+  }
+}
+.icon-House {
+  &:before {
+    content: unicode($icon-House); 
+  }
+}
+.icon-Justify-Center {
+  &:before {
+    content: unicode($icon-Justify-Center); 
+  }
+}
+.icon-Justify-Left {
+  &:before {
+    content: unicode($icon-Justify-Left); 
+  }
+}
+.icon-Justify-Right {
+  &:before {
+    content: unicode($icon-Justify-Right); 
+  }
+}
+.icon-Layout {
+  &:before {
+    content: unicode($icon-Layout); 
+  }
+}
+.icon-Lock {
+  &:before {
+    content: unicode($icon-Lock); 
+  }
+}
+.icon-File-Upload {
+  &:before {
+    content: unicode($icon-File-Upload); 
+  }
+}
+.icon-Flag {
+  &:before {
+    content: unicode($icon-Flag); 
+  }
+}
+.icon-Flower {
+  &:before {
+    content: unicode($icon-Flower); 
+  }
+}
+.icon-Folder {
+  &:before {
+    content: unicode($icon-Folder); 
+  }
+}
+.icon-Font {
+  &:before {
+    content: unicode($icon-Font); 
+  }
+}
+.icon-File-Text {
+  &:before {
+    content: unicode($icon-File-Text); 
+  }
+}
+.icon-Factory {
+  &:before {
+    content: unicode($icon-Factory); 
+  }
+}
+.icon-File-Download {
+  &:before {
+    content: unicode($icon-File-Download); 
+  }
+}
+.icon-External {
+  &:before {
+    content: unicode($icon-External); 
+  }
+}
+.icon-Circle-Plus {
+  &:before {
+    content: unicode($icon-Circle-Plus); 
+  }
+}
+.icon-Circle-Skip-Left {
+  &:before {
+    content: unicode($icon-Circle-Skip-Left); 
+  }
+}
+.icon-Circle-Skip-Right {
+  &:before {
+    content: unicode($icon-Circle-Skip-Right); 
+  }
+}
+.icon-Circle-Tick {
+  &:before {
+    content: unicode($icon-Circle-Tick); 
+  }
+}
+.icon-Clock {
+  &:before {
+    content: unicode($icon-Clock); 
+  }
+}
+.icon-Contrast {
+  &:before {
+    content: unicode($icon-Contrast); 
+  }
+}
+.icon-Copy {
+  &:before {
+    content: unicode($icon-Copy); 
+  }
+}
+.icon-Cross {
+  &:before {
+    content: unicode($icon-Cross); 
+  }
+}
+.icon-Crosshair {
+  &:before {
+    content: unicode($icon-Crosshair); 
+  }
+}
+.icon-Cup {
+  &:before {
+    content: unicode($icon-Cup); 
+  }
+}
+.icon-Diamond {
+  &:before {
+    content: unicode($icon-Diamond); 
+  }
+}
+.icon-Exit {
+  &:before {
+    content: unicode($icon-Exit); 
+  }
+}
+.icon-Browser {
+  &:before {
+    content: unicode($icon-Browser); 
+  }
+}
+.icon-Calculator {
+  &:before {
+    content: unicode($icon-Calculator); 
+  }
+}
+.icon-Calendar {
+  &:before {
+    content: unicode($icon-Calendar); 
+  }
+}
+.icon-Chat {
+  &:before {
+    content: unicode($icon-Chat); 
+  }
+}
+.icon-Circle-Arrow-Down {
+  &:before {
+    content: unicode($icon-Circle-Arrow-Down); 
+  }
+}
+.icon-Circle-Arrow-Left {
+  &:before {
+    content: unicode($icon-Circle-Arrow-Left); 
+  }
+}
+.icon-Circle-Arrow-Right {
+  &:before {
+    content: unicode($icon-Circle-Arrow-Right); 
+  }
+}
+.icon-Circle-Arrow-Up {
+  &:before {
+    content: unicode($icon-Circle-Arrow-Up); 
+  }
+}
+.icon-Circle-Attention {
+  &:before {
+    content: unicode($icon-Circle-Attention); 
+  }
+}
+.icon-Circle-Delete {
+  &:before {
+    content: unicode($icon-Circle-Delete); 
+  }
+}
+.icon-Circle-Info {
+  &:before {
+    content: unicode($icon-Circle-Info); 
+  }
+}
+.icon-Circle-Minus {
+  &:before {
+    content: unicode($icon-Circle-Minus); 
+  }
+}
+.icon-Circle-More {
+  &:before {
+    content: unicode($icon-Circle-More); 
+  }
+}
+.icon-Circle-Pause {
+  &:before {
+    content: unicode($icon-Circle-Pause); 
+  }
+}
+.icon-Circle-Play {
+  &:before {
+    content: unicode($icon-Circle-Play); 
   }
 }
 .icon-Align-Verticle {
@@ -395,269 +635,29 @@
     content: unicode($icon-Branch); 
   }
 }
-.icon-Browser {
+.icon-Align-Bottom {
   &:before {
-    content: unicode($icon-Browser); 
+    content: unicode($icon-Align-Bottom); 
   }
 }
-.icon-Calculator {
+.icon-Align-Horizontal {
   &:before {
-    content: unicode($icon-Calculator); 
+    content: unicode($icon-Align-Horizontal); 
   }
 }
-.icon-Calendar {
+.icon-Align-Left {
   &:before {
-    content: unicode($icon-Calendar); 
+    content: unicode($icon-Align-Left); 
   }
 }
-.icon-Chat {
+.icon-Align-Right {
   &:before {
-    content: unicode($icon-Chat); 
+    content: unicode($icon-Align-Right); 
   }
 }
-.icon-Circle-Attention {
+.icon-Align-Top {
   &:before {
-    content: unicode($icon-Circle-Attention); 
-  }
-}
-.icon-Circle-Delete {
-  &:before {
-    content: unicode($icon-Circle-Delete); 
-  }
-}
-.icon-Circle-Down-Arrow {
-  &:before {
-    content: unicode($icon-Circle-Down-Arrow); 
-  }
-}
-.icon-Circle-Info {
-  &:before {
-    content: unicode($icon-Circle-Info); 
-  }
-}
-.icon-Circle-Left-Arrow {
-  &:before {
-    content: unicode($icon-Circle-Left-Arrow); 
-  }
-}
-.icon-Circle-Minus {
-  &:before {
-    content: unicode($icon-Circle-Minus); 
-  }
-}
-.icon-Circle-More {
-  &:before {
-    content: unicode($icon-Circle-More); 
-  }
-}
-.icon-Circle-Pause {
-  &:before {
-    content: unicode($icon-Circle-Pause); 
-  }
-}
-.icon-Circle-Play {
-  &:before {
-    content: unicode($icon-Circle-Play); 
-  }
-}
-.icon-Circle-Plus {
-  &:before {
-    content: unicode($icon-Circle-Plus); 
-  }
-}
-.icon-Circle-Right-Arrow {
-  &:before {
-    content: unicode($icon-Circle-Right-Arrow); 
-  }
-}
-.icon-Circle-Skip-Left {
-  &:before {
-    content: unicode($icon-Circle-Skip-Left); 
-  }
-}
-.icon-Circle-Skip-Right {
-  &:before {
-    content: unicode($icon-Circle-Skip-Right); 
-  }
-}
-.icon-Circle-Tick {
-  &:before {
-    content: unicode($icon-Circle-Tick); 
-  }
-}
-.icon-Circle-Up-Arrow {
-  &:before {
-    content: unicode($icon-Circle-Up-Arrow); 
-  }
-}
-.icon-Clock {
-  &:before {
-    content: unicode($icon-Clock); 
-  }
-}
-.icon-Contrast {
-  &:before {
-    content: unicode($icon-Contrast); 
-  }
-}
-.icon-Copy {
-  &:before {
-    content: unicode($icon-Copy); 
-  }
-}
-.icon-Cross {
-  &:before {
-    content: unicode($icon-Cross); 
-  }
-}
-.icon-Crosshair {
-  &:before {
-    content: unicode($icon-Crosshair); 
-  }
-}
-.icon-Cup {
-  &:before {
-    content: unicode($icon-Cup); 
-  }
-}
-.icon-Diamond {
-  &:before {
-    content: unicode($icon-Diamond); 
-  }
-}
-.icon-Exit {
-  &:before {
-    content: unicode($icon-Exit); 
-  }
-}
-.icon-External {
-  &:before {
-    content: unicode($icon-External); 
-  }
-}
-.icon-Factory {
-  &:before {
-    content: unicode($icon-Factory); 
-  }
-}
-.icon-File-Download {
-  &:before {
-    content: unicode($icon-File-Download); 
-  }
-}
-.icon-File-Text {
-  &:before {
-    content: unicode($icon-File-Text); 
-  }
-}
-.icon-File-Upload {
-  &:before {
-    content: unicode($icon-File-Upload); 
-  }
-}
-.icon-Flag {
-  &:before {
-    content: unicode($icon-Flag); 
-  }
-}
-.icon-Flower {
-  &:before {
-    content: unicode($icon-Flower); 
-  }
-}
-.icon-Folder {
-  &:before {
-    content: unicode($icon-Folder); 
-  }
-}
-.icon-Font {
-  &:before {
-    content: unicode($icon-Font); 
-  }
-}
-.icon-Fork {
-  &:before {
-    content: unicode($icon-Fork); 
-  }
-}
-.icon-Frown {
-  &:before {
-    content: unicode($icon-Frown); 
-  }
-}
-.icon-Fullscreen {
-  &:before {
-    content: unicode($icon-Fullscreen); 
-  }
-}
-.icon-Ghost {
-  &:before {
-    content: unicode($icon-Ghost); 
-  }
-}
-.icon-Heart {
-  &:before {
-    content: unicode($icon-Heart); 
-  }
-}
-.icon-House {
-  &:before {
-    content: unicode($icon-House); 
-  }
-}
-.icon-Justify-Center {
-  &:before {
-    content: unicode($icon-Justify-Center); 
-  }
-}
-.icon-Justify-Left {
-  &:before {
-    content: unicode($icon-Justify-Left); 
-  }
-}
-.icon-Justify-Right {
-  &:before {
-    content: unicode($icon-Justify-Right); 
-  }
-}
-.icon-Layout {
-  &:before {
-    content: unicode($icon-Layout); 
-  }
-}
-.icon-Lock {
-  &:before {
-    content: unicode($icon-Lock); 
-  }
-}
-.icon-Mail-Inbox {
-  &:before {
-    content: unicode($icon-Mail-Inbox); 
-  }
-}
-.icon-Mail-Open {
-  &:before {
-    content: unicode($icon-Mail-Open); 
-  }
-}
-.icon-Mail-Outbox {
-  &:before {
-    content: unicode($icon-Mail-Outbox); 
-  }
-}
-.icon-Maximise {
-  &:before {
-    content: unicode($icon-Maximise); 
-  }
-}
-.icon-Menu-Four {
-  &:before {
-    content: unicode($icon-Menu-Four); 
-  }
-}
-.icon-Menu-Grid {
-  &:before {
-    content: unicode($icon-Menu-Grid); 
+    content: unicode($icon-Align-Top); 
   }
 }
 

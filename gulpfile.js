@@ -85,7 +85,7 @@ gulp.task('iconList', function(){
     flatten : true,
     removeExtensions: true
   }))
-  .pipe(gulp.dest('./'))
+  .pipe(gulp.dest('dist/docs/assets/json'))
 });
 
 // Remove .DS_Store
