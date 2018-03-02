@@ -1,5 +1,7 @@
 # 16PXLS
 
+![Alt text](/dist/docs/assets/images/readme.png?raw=true "Preview of Icons")
+
 Born out of a need for an icon set that would align well in vertical and horizontal lists. Great for navigation, buttons, headings or lists. If you are obsessed with things lining up, then this icon set is perfect for you!
 
 ## Documentation
