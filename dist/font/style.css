@@ -1,10 +1,10 @@
 @font-face {
   font-family: '16pxls';
-  src:  url('fonts/16pxls.eot?yc7bu6');
-  src:  url('fonts/16pxls.eot?yc7bu6#iefix') format('embedded-opentype'),
-    url('fonts/16pxls.ttf?yc7bu6') format('truetype'),
-    url('fonts/16pxls.woff?yc7bu6') format('woff'),
-    url('fonts/16pxls.svg?yc7bu6#16pxls') format('svg');
+  src:  url('fonts/16pxls.eot?u3o8tv');
+  src:  url('fonts/16pxls.eot?u3o8tv#iefix') format('embedded-opentype'),
+    url('fonts/16pxls.ttf?u3o8tv') format('truetype'),
+    url('fonts/16pxls.woff?u3o8tv') format('woff'),
+    url('fonts/16pxls.svg?u3o8tv#16pxls') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Settings:before {
+  content: "\e91e";
+}
 .icon-Justify-Right:before {
   content: "\e900";
 }
@@ -113,9 +116,6 @@
 }
 .icon-Server:before {
   content: "\e91d";
-}
-.icon-Settings:before {
-  content: "\e91e";
 }
 .icon-Share:before {
   content: "\e91f";

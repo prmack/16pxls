@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'16pxls\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-Settings': '&#xe91e;',
 		'icon-Justify-Right': '&#xe900;',
 		'icon-Layout': '&#xe901;',
 		'icon-Lock': '&#xe902;',
@@ -43,7 +44,6 @@
 		'icon-Scissors': '&#xe91b;',
 		'icon-Search': '&#xe91c;',
 		'icon-Server': '&#xe91d;',
-		'icon-Settings': '&#xe91e;',
 		'icon-Share': '&#xe91f;',
 		'icon-Skull': '&#xe920;',
 		'icon-Smile': '&#xe921;',

@@ -4,6 +4,35 @@
     {
       "icon": {
         "paths": [
+          "M576 885.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-522.944h-128v522.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v138.944h128v-138.944zM256 501.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-138.944h-128v138.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v522.944h128v-522.944zM896 501.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-138.944h-128v138.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v522.944h128v-522.944zM768 384v-128h128v128h-128zM128 384v-128h128v128h-128zM448 768v-128h128v128h-128z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Settings"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 884,
+        "id": 126,
+        "name": "Settings",
+        "prevSize": 16,
+        "code": 59678
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M1024 0h-128v1024h128v-1024zM768 576h-768v128h768v-128zM768 320h-640v128h640v-128zM768 64h-768v128h768v-128zM768 832h-640v128h640v-128z"
         ],
         "attrs": [
@@ -20,7 +49,7 @@
         {}
       ],
       "properties": {
-        "order": 757,
+        "order": 885,
         "id": 125,
         "name": "Justify-Right",
         "prevSize": 16,
@@ -28,7 +57,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 0
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -49,7 +78,7 @@
         {}
       ],
       "properties": {
-        "order": 758,
+        "order": 886,
         "id": 124,
         "name": "Layout",
         "prevSize": 16,
@@ -57,7 +86,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 1
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -78,7 +107,7 @@
         {}
       ],
       "properties": {
-        "order": 759,
+        "order": 887,
         "id": 123,
         "name": "Lock",
         "prevSize": 16,
@@ -86,7 +115,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 2
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -107,7 +136,7 @@
         {}
       ],
       "properties": {
-        "order": 760,
+        "order": 888,
         "id": 122,
         "name": "Mail-Inbox",
         "prevSize": 16,
@@ -115,7 +144,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 3
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -136,7 +165,7 @@
         {}
       ],
       "properties": {
-        "order": 761,
+        "order": 889,
         "id": 121,
         "name": "Mail-Open",
         "prevSize": 16,
@@ -144,7 +173,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 4
+      "iconIdx": 5
     },
     {
       "icon": {
@@ -165,7 +194,7 @@
         {}
       ],
       "properties": {
-        "order": 762,
+        "order": 890,
         "id": 120,
         "name": "Mail-Outbox",
         "prevSize": 16,
@@ -173,7 +202,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 5
+      "iconIdx": 6
     },
     {
       "icon": {
@@ -194,7 +223,7 @@
         {}
       ],
       "properties": {
-        "order": 763,
+        "order": 891,
         "id": 119,
         "name": "Maximise",
         "prevSize": 16,
@@ -202,7 +231,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 6
+      "iconIdx": 7
     },
     {
       "icon": {
@@ -223,7 +252,7 @@
         {}
       ],
       "properties": {
-        "order": 764,
+        "order": 892,
         "id": 118,
         "name": "Menu-Four",
         "prevSize": 16,
@@ -231,7 +260,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 7
+      "iconIdx": 8
     },
     {
       "icon": {
@@ -252,7 +281,7 @@
         {}
       ],
       "properties": {
-        "order": 765,
+        "order": 893,
         "id": 117,
         "name": "Menu-Grid",
         "prevSize": 16,
@@ -260,7 +289,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 8
+      "iconIdx": 9
     },
     {
       "icon": {
@@ -281,7 +310,7 @@
         {}
       ],
       "properties": {
-        "order": 766,
+        "order": 894,
         "id": 116,
         "name": "Menu-Two",
         "prevSize": 16,
@@ -289,7 +318,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 9
+      "iconIdx": 10
     },
     {
       "icon": {
@@ -310,7 +339,7 @@
         {}
       ],
       "properties": {
-        "order": 767,
+        "order": 895,
         "id": 115,
         "name": "Microphone",
         "prevSize": 16,
@@ -318,7 +347,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 10
+      "iconIdx": 11
     },
     {
       "icon": {
@@ -339,7 +368,7 @@
         {}
       ],
       "properties": {
-        "order": 768,
+        "order": 896,
         "id": 114,
         "name": "Minimise",
         "prevSize": 16,
@@ -347,7 +376,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 11
+      "iconIdx": 12
     },
     {
       "icon": {
@@ -368,7 +397,7 @@
         {}
       ],
       "properties": {
-        "order": 769,
+        "order": 897,
         "id": 113,
         "name": "Monitor",
         "prevSize": 16,
@@ -376,7 +405,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 12
+      "iconIdx": 13
     },
     {
       "icon": {
@@ -397,7 +426,7 @@
         {}
       ],
       "properties": {
-        "order": 770,
+        "order": 898,
         "id": 112,
         "name": "Network-Port",
         "prevSize": 16,
@@ -405,7 +434,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 13
+      "iconIdx": 14
     },
     {
       "icon": {
@@ -426,7 +455,7 @@
         {}
       ],
       "properties": {
-        "order": 771,
+        "order": 899,
         "id": 111,
         "name": "Network",
         "prevSize": 16,
@@ -434,7 +463,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 14
+      "iconIdx": 15
     },
     {
       "icon": {
@@ -455,7 +484,7 @@
         {}
       ],
       "properties": {
-        "order": 772,
+        "order": 900,
         "id": 110,
         "name": "NoEntry",
         "prevSize": 16,
@@ -463,7 +492,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 15
+      "iconIdx": 16
     },
     {
       "icon": {
@@ -484,7 +513,7 @@
         {}
       ],
       "properties": {
-        "order": 773,
+        "order": 901,
         "id": 109,
         "name": "Notification",
         "prevSize": 16,
@@ -492,7 +521,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 16
+      "iconIdx": 17
     },
     {
       "icon": {
@@ -513,7 +542,7 @@
         {}
       ],
       "properties": {
-        "order": 774,
+        "order": 902,
         "id": 108,
         "name": "Photo",
         "prevSize": 16,
@@ -521,7 +550,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 17
+      "iconIdx": 18
     },
     {
       "icon": {
@@ -542,7 +571,7 @@
         {}
       ],
       "properties": {
-        "order": 775,
+        "order": 903,
         "id": 107,
         "name": "PhotoSet",
         "prevSize": 16,
@@ -550,7 +579,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 18
+      "iconIdx": 19
     },
     {
       "icon": {
@@ -571,7 +600,7 @@
         {}
       ],
       "properties": {
-        "order": 776,
+        "order": 904,
         "id": 106,
         "name": "Pie",
         "prevSize": 16,
@@ -579,7 +608,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 19
+      "iconIdx": 20
     },
     {
       "icon": {
@@ -600,7 +629,7 @@
         {}
       ],
       "properties": {
-        "order": 777,
+        "order": 905,
         "id": 105,
         "name": "Pin",
         "prevSize": 16,
@@ -608,7 +637,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 20
+      "iconIdx": 21
     },
     {
       "icon": {
@@ -629,7 +658,7 @@
         {}
       ],
       "properties": {
-        "order": 778,
+        "order": 906,
         "id": 104,
         "name": "Plug",
         "prevSize": 16,
@@ -637,7 +666,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 21
+      "iconIdx": 22
     },
     {
       "icon": {
@@ -658,7 +687,7 @@
         {}
       ],
       "properties": {
-        "order": 779,
+        "order": 907,
         "id": 103,
         "name": "Printer",
         "prevSize": 16,
@@ -666,7 +695,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 22
+      "iconIdx": 23
     },
     {
       "icon": {
@@ -687,7 +716,7 @@
         {}
       ],
       "properties": {
-        "order": 780,
+        "order": 908,
         "id": 102,
         "name": "Quote",
         "prevSize": 16,
@@ -695,7 +724,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 23
+      "iconIdx": 24
     },
     {
       "icon": {
@@ -716,7 +745,7 @@
         {}
       ],
       "properties": {
-        "order": 781,
+        "order": 909,
         "id": 101,
         "name": "Refresh",
         "prevSize": 16,
@@ -724,7 +753,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 24
+      "iconIdx": 25
     },
     {
       "icon": {
@@ -745,7 +774,7 @@
         {}
       ],
       "properties": {
-        "order": 782,
+        "order": 910,
         "id": 100,
         "name": "Robot",
         "prevSize": 16,
@@ -753,7 +782,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 25
+      "iconIdx": 26
     },
     {
       "icon": {
@@ -774,7 +803,7 @@
         {}
       ],
       "properties": {
-        "order": 783,
+        "order": 911,
         "id": 99,
         "name": "Save",
         "prevSize": 16,
@@ -782,7 +811,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 26
+      "iconIdx": 27
     },
     {
       "icon": {
@@ -803,7 +832,7 @@
         {}
       ],
       "properties": {
-        "order": 784,
+        "order": 912,
         "id": 98,
         "name": "Scissors",
         "prevSize": 16,
@@ -811,7 +840,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 27
+      "iconIdx": 28
     },
     {
       "icon": {
@@ -832,7 +861,7 @@
         {}
       ],
       "properties": {
-        "order": 785,
+        "order": 913,
         "id": 97,
         "name": "Search",
         "prevSize": 16,
@@ -840,7 +869,7 @@
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 28
+      "iconIdx": 29
     },
     {
       "icon": {
@@ -861,40 +890,11 @@
         {}
       ],
       "properties": {
-        "order": 786,
+        "order": 914,
         "id": 96,
         "name": "Server",
         "prevSize": 16,
         "code": 59677
-      },
-      "setIdx": 0,
-      "setId": 2,
-      "iconIdx": 29
-    },
-    {
-      "icon": {
-        "paths": [
-          "M576 885.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-522.944h-128v522.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v138.944h128v-138.944zM256 501.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-138.944h-128v138.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v522.944h128v-522.944zM896 501.056c75.176-27.222 127.936-97.969 128-181.048l0-0.008c-0.044-83.093-52.813-153.85-126.662-180.632l-1.338-0.424v-138.944h-128v138.944c-75.176 27.222-127.936 97.969-128 181.048l-0 0.008c0 83.584 53.504 154.688 128 181.056v522.944h128v-522.944zM768 320c0-35.584 28.672-64 64-64 35.584 0 64 28.672 64 64 0 35.584-28.672 64-64 64-35.584 0-64-28.672-64-64zM128 320c0-35.584 28.672-64 64-64 35.584 0 64 28.672 64 64 0 35.584-28.672 64-64 64-35.584 0-64-28.672-64-64zM448 704c0-35.584 28.672-64 64-64 35.584 0 64 28.672 64 64 0 35.584-28.672 64-64 64-35.584 0-64-28.672-64-64z"
-        ],
-        "attrs": [
-          {}
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "Settings"
-        ]
-      },
-      "attrs": [
-        {}
-      ],
-      "properties": {
-        "order": 787,
-        "id": 95,
-        "name": "Settings",
-        "prevSize": 16,
-        "code": 59678
       },
       "setIdx": 0,
       "setId": 2,
@@ -919,7 +919,7 @@
         {}
       ],
       "properties": {
-        "order": 788,
+        "order": 915,
         "id": 94,
         "name": "Share",
         "prevSize": 16,
@@ -948,7 +948,7 @@
         {}
       ],
       "properties": {
-        "order": 789,
+        "order": 916,
         "id": 93,
         "name": "Skull",
         "prevSize": 16,
@@ -977,7 +977,7 @@
         {}
       ],
       "properties": {
-        "order": 790,
+        "order": 917,
         "id": 92,
         "name": "Smile",
         "prevSize": 16,
@@ -1006,7 +1006,7 @@
         {}
       ],
       "properties": {
-        "order": 791,
+        "order": 918,
         "id": 91,
         "name": "Sort-Assending",
         "prevSize": 16,
@@ -1035,7 +1035,7 @@
         {}
       ],
       "properties": {
-        "order": 792,
+        "order": 919,
         "id": 90,
         "name": "Sort-Descending",
         "prevSize": 16,
@@ -1064,7 +1064,7 @@
         {}
       ],
       "properties": {
-        "order": 793,
+        "order": 920,
         "id": 89,
         "name": "Sound-Off",
         "prevSize": 16,
@@ -1093,7 +1093,7 @@
         {}
       ],
       "properties": {
-        "order": 794,
+        "order": 921,
         "id": 88,
         "name": "Sound-On",
         "prevSize": 16,
@@ -1122,7 +1122,7 @@
         {}
       ],
       "properties": {
-        "order": 795,
+        "order": 922,
         "id": 87,
         "name": "Soup",
         "prevSize": 16,
@@ -1151,7 +1151,7 @@
         {}
       ],
       "properties": {
-        "order": 796,
+        "order": 923,
         "id": 86,
         "name": "Square-Arrow-Down",
         "prevSize": 16,
@@ -1180,7 +1180,7 @@
         {}
       ],
       "properties": {
-        "order": 797,
+        "order": 924,
         "id": 85,
         "name": "Square-Arrow-Left",
         "prevSize": 16,
@@ -1209,7 +1209,7 @@
         {}
       ],
       "properties": {
-        "order": 798,
+        "order": 925,
         "id": 84,
         "name": "Square-Arrow-Right",
         "prevSize": 16,
@@ -1238,7 +1238,7 @@
         {}
       ],
       "properties": {
-        "order": 799,
+        "order": 926,
         "id": 83,
         "name": "Square-Arrow-Up",
         "prevSize": 16,
@@ -1267,7 +1267,7 @@
         {}
       ],
       "properties": {
-        "order": 800,
+        "order": 927,
         "id": 82,
         "name": "Square-Attention",
         "prevSize": 16,
@@ -1296,7 +1296,7 @@
         {}
       ],
       "properties": {
-        "order": 801,
+        "order": 928,
         "id": 81,
         "name": "Square-Delete",
         "prevSize": 16,
@@ -1325,7 +1325,7 @@
         {}
       ],
       "properties": {
-        "order": 802,
+        "order": 929,
         "id": 80,
         "name": "Square-Info",
         "prevSize": 16,
@@ -1354,7 +1354,7 @@
         {}
       ],
       "properties": {
-        "order": 803,
+        "order": 930,
         "id": 79,
         "name": "Square-Lock",
         "prevSize": 16,
@@ -1383,7 +1383,7 @@
         {}
       ],
       "properties": {
-        "order": 804,
+        "order": 931,
         "id": 78,
         "name": "Square-Minus",
         "prevSize": 16,
@@ -1412,7 +1412,7 @@
         {}
       ],
       "properties": {
-        "order": 805,
+        "order": 932,
         "id": 77,
         "name": "Square-More",
         "prevSize": 16,
@@ -1441,7 +1441,7 @@
         {}
       ],
       "properties": {
-        "order": 806,
+        "order": 933,
         "id": 76,
         "name": "Square-Pause",
         "prevSize": 16,
@@ -1470,7 +1470,7 @@
         {}
       ],
       "properties": {
-        "order": 807,
+        "order": 934,
         "id": 75,
         "name": "Square-Play",
         "prevSize": 16,
@@ -1499,7 +1499,7 @@
         {}
       ],
       "properties": {
-        "order": 808,
+        "order": 935,
         "id": 74,
         "name": "Square-Plus",
         "prevSize": 16,
@@ -1528,7 +1528,7 @@
         {}
       ],
       "properties": {
-        "order": 809,
+        "order": 936,
         "id": 73,
         "name": "Square-Skip-Left",
         "prevSize": 16,
@@ -1557,7 +1557,7 @@
         {}
       ],
       "properties": {
-        "order": 810,
+        "order": 937,
         "id": 72,
         "name": "Square-Skip-Right",
         "prevSize": 16,
@@ -1586,7 +1586,7 @@
         {}
       ],
       "properties": {
-        "order": 811,
+        "order": 938,
         "id": 71,
         "name": "Square-Tick",
         "prevSize": 16,
@@ -1615,7 +1615,7 @@
         {}
       ],
       "properties": {
-        "order": 812,
+        "order": 939,
         "id": 70,
         "name": "Stack",
         "prevSize": 16,
@@ -1644,7 +1644,7 @@
         {}
       ],
       "properties": {
-        "order": 813,
+        "order": 940,
         "id": 69,
         "name": "StockGraph",
         "prevSize": 16,
@@ -1673,7 +1673,7 @@
         {}
       ],
       "properties": {
-        "order": 814,
+        "order": 941,
         "id": 68,
         "name": "Tag",
         "prevSize": 16,
@@ -1702,7 +1702,7 @@
         {}
       ],
       "properties": {
-        "order": 815,
+        "order": 942,
         "id": 67,
         "name": "Target",
         "prevSize": 16,
@@ -1731,7 +1731,7 @@
         {}
       ],
       "properties": {
-        "order": 816,
+        "order": 943,
         "id": 66,
         "name": "ThumbDown",
         "prevSize": 16,
@@ -1760,7 +1760,7 @@
         {}
       ],
       "properties": {
-        "order": 817,
+        "order": 944,
         "id": 65,
         "name": "ThumbUp",
         "prevSize": 16,
@@ -1789,7 +1789,7 @@
         {}
       ],
       "properties": {
-        "order": 818,
+        "order": 945,
         "id": 64,
         "name": "TowerBlock",
         "prevSize": 16,
@@ -1818,7 +1818,7 @@
         {}
       ],
       "properties": {
-        "order": 819,
+        "order": 946,
         "id": 63,
         "name": "USB",
         "prevSize": 16,
@@ -1847,7 +1847,7 @@
         {}
       ],
       "properties": {
-        "order": 820,
+        "order": 947,
         "id": 62,
         "name": "Video",
         "prevSize": 16,
@@ -1876,7 +1876,7 @@
         {}
       ],
       "properties": {
-        "order": 821,
+        "order": 948,
         "id": 61,
         "name": "Zip",
         "prevSize": 16,
@@ -1905,7 +1905,7 @@
         {}
       ],
       "properties": {
-        "order": 822,
+        "order": 949,
         "id": 60,
         "name": "Folder",
         "prevSize": 16,
@@ -1934,7 +1934,7 @@
         {}
       ],
       "properties": {
-        "order": 823,
+        "order": 950,
         "id": 59,
         "name": "Font",
         "prevSize": 16,
@@ -1963,7 +1963,7 @@
         {}
       ],
       "properties": {
-        "order": 824,
+        "order": 951,
         "id": 58,
         "name": "Fork",
         "prevSize": 16,
@@ -1992,7 +1992,7 @@
         {}
       ],
       "properties": {
-        "order": 825,
+        "order": 952,
         "id": 57,
         "name": "Frown",
         "prevSize": 16,
@@ -2021,7 +2021,7 @@
         {}
       ],
       "properties": {
-        "order": 826,
+        "order": 953,
         "id": 56,
         "name": "Fullscreen",
         "prevSize": 16,
@@ -2050,7 +2050,7 @@
         {}
       ],
       "properties": {
-        "order": 827,
+        "order": 954,
         "id": 55,
         "name": "Ghost",
         "prevSize": 16,
@@ -2079,7 +2079,7 @@
         {}
       ],
       "properties": {
-        "order": 828,
+        "order": 955,
         "id": 54,
         "name": "Heart",
         "prevSize": 16,
@@ -2108,7 +2108,7 @@
         {}
       ],
       "properties": {
-        "order": 829,
+        "order": 956,
         "id": 53,
         "name": "House",
         "prevSize": 16,
@@ -2137,7 +2137,7 @@
         {}
       ],
       "properties": {
-        "order": 830,
+        "order": 957,
         "id": 52,
         "name": "Justify-Center",
         "prevSize": 16,
@@ -2166,7 +2166,7 @@
         {}
       ],
       "properties": {
-        "order": 831,
+        "order": 958,
         "id": 51,
         "name": "Justify-Left",
         "prevSize": 16,
@@ -2195,7 +2195,7 @@
         {}
       ],
       "properties": {
-        "order": 832,
+        "order": 959,
         "id": 50,
         "name": "File-Text",
         "prevSize": 16,
@@ -2224,7 +2224,7 @@
         {}
       ],
       "properties": {
-        "order": 833,
+        "order": 960,
         "id": 49,
         "name": "File-Upload",
         "prevSize": 16,
@@ -2253,7 +2253,7 @@
         {}
       ],
       "properties": {
-        "order": 834,
+        "order": 961,
         "id": 48,
         "name": "Flag",
         "prevSize": 16,
@@ -2282,7 +2282,7 @@
         {}
       ],
       "properties": {
-        "order": 835,
+        "order": 962,
         "id": 47,
         "name": "Flower",
         "prevSize": 16,
@@ -2311,7 +2311,7 @@
         {}
       ],
       "properties": {
-        "order": 836,
+        "order": 963,
         "id": 46,
         "name": "Exit",
         "prevSize": 16,
@@ -2340,7 +2340,7 @@
         {}
       ],
       "properties": {
-        "order": 837,
+        "order": 964,
         "id": 45,
         "name": "External",
         "prevSize": 16,
@@ -2369,7 +2369,7 @@
         {}
       ],
       "properties": {
-        "order": 838,
+        "order": 965,
         "id": 44,
         "name": "Factory",
         "prevSize": 16,
@@ -2398,7 +2398,7 @@
         {}
       ],
       "properties": {
-        "order": 839,
+        "order": 966,
         "id": 43,
         "name": "File-Download",
         "prevSize": 16,
@@ -2427,7 +2427,7 @@
         {}
       ],
       "properties": {
-        "order": 840,
+        "order": 967,
         "id": 42,
         "name": "Chat",
         "prevSize": 16,
@@ -2456,7 +2456,7 @@
         {}
       ],
       "properties": {
-        "order": 841,
+        "order": 968,
         "id": 41,
         "name": "Circle-Arrow-Down",
         "prevSize": 16,
@@ -2485,7 +2485,7 @@
         {}
       ],
       "properties": {
-        "order": 842,
+        "order": 969,
         "id": 40,
         "name": "Circle-Arrow-Left",
         "prevSize": 16,
@@ -2514,7 +2514,7 @@
         {}
       ],
       "properties": {
-        "order": 843,
+        "order": 970,
         "id": 39,
         "name": "Circle-Arrow-Right",
         "prevSize": 16,
@@ -2543,7 +2543,7 @@
         {}
       ],
       "properties": {
-        "order": 844,
+        "order": 971,
         "id": 38,
         "name": "Circle-Arrow-Up",
         "prevSize": 16,
@@ -2572,7 +2572,7 @@
         {}
       ],
       "properties": {
-        "order": 845,
+        "order": 972,
         "id": 37,
         "name": "Circle-Attention",
         "prevSize": 16,
@@ -2601,7 +2601,7 @@
         {}
       ],
       "properties": {
-        "order": 846,
+        "order": 973,
         "id": 36,
         "name": "Circle-Delete",
         "prevSize": 16,
@@ -2630,7 +2630,7 @@
         {}
       ],
       "properties": {
-        "order": 847,
+        "order": 974,
         "id": 35,
         "name": "Circle-Info",
         "prevSize": 16,
@@ -2659,7 +2659,7 @@
         {}
       ],
       "properties": {
-        "order": 848,
+        "order": 975,
         "id": 34,
         "name": "Circle-Minus",
         "prevSize": 16,
@@ -2688,7 +2688,7 @@
         {}
       ],
       "properties": {
-        "order": 849,
+        "order": 976,
         "id": 33,
         "name": "Circle-More",
         "prevSize": 16,
@@ -2717,7 +2717,7 @@
         {}
       ],
       "properties": {
-        "order": 850,
+        "order": 977,
         "id": 32,
         "name": "Circle-Pause",
         "prevSize": 16,
@@ -2746,7 +2746,7 @@
         {}
       ],
       "properties": {
-        "order": 851,
+        "order": 978,
         "id": 31,
         "name": "Circle-Play",
         "prevSize": 16,
@@ -2775,7 +2775,7 @@
         {}
       ],
       "properties": {
-        "order": 852,
+        "order": 979,
         "id": 30,
         "name": "Circle-Plus",
         "prevSize": 16,
@@ -2804,7 +2804,7 @@
         {}
       ],
       "properties": {
-        "order": 853,
+        "order": 980,
         "id": 29,
         "name": "Circle-Skip-Left",
         "prevSize": 16,
@@ -2833,7 +2833,7 @@
         {}
       ],
       "properties": {
-        "order": 854,
+        "order": 981,
         "id": 28,
         "name": "Circle-Skip-Right",
         "prevSize": 16,
@@ -2862,7 +2862,7 @@
         {}
       ],
       "properties": {
-        "order": 855,
+        "order": 982,
         "id": 27,
         "name": "Circle-Tick",
         "prevSize": 16,
@@ -2891,7 +2891,7 @@
         {}
       ],
       "properties": {
-        "order": 856,
+        "order": 983,
         "id": 26,
         "name": "Clock",
         "prevSize": 16,
@@ -2920,7 +2920,7 @@
         {}
       ],
       "properties": {
-        "order": 857,
+        "order": 984,
         "id": 25,
         "name": "Contrast",
         "prevSize": 16,
@@ -2949,7 +2949,7 @@
         {}
       ],
       "properties": {
-        "order": 858,
+        "order": 985,
         "id": 24,
         "name": "Copy",
         "prevSize": 16,
@@ -2978,7 +2978,7 @@
         {}
       ],
       "properties": {
-        "order": 859,
+        "order": 986,
         "id": 23,
         "name": "Cross",
         "prevSize": 16,
@@ -3007,7 +3007,7 @@
         {}
       ],
       "properties": {
-        "order": 860,
+        "order": 987,
         "id": 22,
         "name": "Crosshair",
         "prevSize": 16,
@@ -3036,7 +3036,7 @@
         {}
       ],
       "properties": {
-        "order": 861,
+        "order": 988,
         "id": 21,
         "name": "Cup",
         "prevSize": 16,
@@ -3065,7 +3065,7 @@
         {}
       ],
       "properties": {
-        "order": 862,
+        "order": 989,
         "id": 20,
         "name": "Diamond",
         "prevSize": 16,
@@ -3094,7 +3094,7 @@
         {}
       ],
       "properties": {
-        "order": 863,
+        "order": 990,
         "id": 19,
         "name": "ArcadeStick",
         "prevSize": 16,
@@ -3123,7 +3123,7 @@
         {}
       ],
       "properties": {
-        "order": 864,
+        "order": 991,
         "id": 18,
         "name": "Archive",
         "prevSize": 16,
@@ -3152,7 +3152,7 @@
         {}
       ],
       "properties": {
-        "order": 865,
+        "order": 992,
         "id": 17,
         "name": "Arrows-Down",
         "prevSize": 16,
@@ -3181,7 +3181,7 @@
         {}
       ],
       "properties": {
-        "order": 866,
+        "order": 993,
         "id": 16,
         "name": "Arrows-Horizontal",
         "prevSize": 16,
@@ -3210,7 +3210,7 @@
         {}
       ],
       "properties": {
-        "order": 867,
+        "order": 994,
         "id": 15,
         "name": "Arrows-Left",
         "prevSize": 16,
@@ -3239,7 +3239,7 @@
         {}
       ],
       "properties": {
-        "order": 868,
+        "order": 995,
         "id": 14,
         "name": "Arrows-Right",
         "prevSize": 16,
@@ -3268,7 +3268,7 @@
         {}
       ],
       "properties": {
-        "order": 869,
+        "order": 996,
         "id": 13,
         "name": "Arrows-Up",
         "prevSize": 16,
@@ -3297,7 +3297,7 @@
         {}
       ],
       "properties": {
-        "order": 870,
+        "order": 997,
         "id": 12,
         "name": "Arrows-Verticle",
         "prevSize": 16,
@@ -3326,7 +3326,7 @@
         {}
       ],
       "properties": {
-        "order": 871,
+        "order": 998,
         "id": 11,
         "name": "Audio",
         "prevSize": 16,
@@ -3355,7 +3355,7 @@
         {}
       ],
       "properties": {
-        "order": 872,
+        "order": 999,
         "id": 10,
         "name": "Branch",
         "prevSize": 16,
@@ -3384,7 +3384,7 @@
         {}
       ],
       "properties": {
-        "order": 873,
+        "order": 1000,
         "id": 9,
         "name": "Browser",
         "prevSize": 16,
@@ -3413,7 +3413,7 @@
         {}
       ],
       "properties": {
-        "order": 874,
+        "order": 1001,
         "id": 8,
         "name": "Calculator",
         "prevSize": 16,
@@ -3442,7 +3442,7 @@
         {}
       ],
       "properties": {
-        "order": 875,
+        "order": 1002,
         "id": 7,
         "name": "Calendar",
         "prevSize": 16,
@@ -3471,7 +3471,7 @@
         {}
       ],
       "properties": {
-        "order": 876,
+        "order": 1003,
         "id": 6,
         "name": "Align-Bottom",
         "prevSize": 16,
@@ -3500,7 +3500,7 @@
         {}
       ],
       "properties": {
-        "order": 877,
+        "order": 1004,
         "id": 5,
         "name": "Align-Horizontal",
         "prevSize": 16,
@@ -3529,7 +3529,7 @@
         {}
       ],
       "properties": {
-        "order": 878,
+        "order": 1005,
         "id": 4,
         "name": "Align-Left",
         "prevSize": 16,
@@ -3558,7 +3558,7 @@
         {}
       ],
       "properties": {
-        "order": 879,
+        "order": 1006,
         "id": 3,
         "name": "Align-Right",
         "prevSize": 16,
@@ -3587,7 +3587,7 @@
         {}
       ],
       "properties": {
-        "order": 880,
+        "order": 1007,
         "id": 2,
         "name": "Align-Top",
         "prevSize": 16,
@@ -3616,7 +3616,7 @@
         {}
       ],
       "properties": {
-        "order": 881,
+        "order": 1008,
         "id": 1,
         "name": "Align-Verticle",
         "prevSize": 16,
@@ -3645,7 +3645,7 @@
         {}
       ],
       "properties": {
-        "order": 882,
+        "order": 1009,
         "id": 0,
         "name": "Anchor",
         "prevSize": 16,

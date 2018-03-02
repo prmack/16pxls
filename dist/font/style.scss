@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '16pxls';
-  src:  url('#{$icomoon-font-path}/16pxls.eot?yc7bu6');
-  src:  url('#{$icomoon-font-path}/16pxls.eot?yc7bu6#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/16pxls.ttf?yc7bu6') format('truetype'),
-    url('#{$icomoon-font-path}/16pxls.woff?yc7bu6') format('woff'),
-    url('#{$icomoon-font-path}/16pxls.svg?yc7bu6#16pxls') format('svg');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?u3o8tv');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?u3o8tv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/16pxls.ttf?u3o8tv') format('truetype'),
+    url('#{$icomoon-font-path}/16pxls.woff?u3o8tv') format('woff'),
+    url('#{$icomoon-font-path}/16pxls.svg?u3o8tv#16pxls') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,6 +30,11 @@
   @return unquote("\"") + $str + unquote("\"");
 }
 
+.icon-Settings {
+  &:before {
+    content: unicode($icon-Settings); 
+  }
+}
 .icon-Justify-Right {
   &:before {
     content: unicode($icon-Justify-Right); 
@@ -178,11 +183,6 @@
 .icon-Server {
   &:before {
     content: unicode($icon-Server); 
-  }
-}
-.icon-Settings {
-  &:before {
-    content: unicode($icon-Settings); 
   }
 }
 .icon-Share {
