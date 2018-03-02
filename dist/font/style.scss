@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '16pxls';
-  src:  url('#{$icomoon-font-path}/16pxls.eot?iaobqa');
-  src:  url('#{$icomoon-font-path}/16pxls.eot?iaobqa#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/16pxls.ttf?iaobqa') format('truetype'),
-    url('#{$icomoon-font-path}/16pxls.woff?iaobqa') format('woff'),
-    url('#{$icomoon-font-path}/16pxls.svg?iaobqa#16pxls') format('svg');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?yc7bu6');
+  src:  url('#{$icomoon-font-path}/16pxls.eot?yc7bu6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/16pxls.ttf?yc7bu6') format('truetype'),
+    url('#{$icomoon-font-path}/16pxls.woff?yc7bu6') format('woff'),
+    url('#{$icomoon-font-path}/16pxls.svg?yc7bu6#16pxls') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,6 +30,21 @@
   @return unquote("\"") + $str + unquote("\"");
 }
 
+.icon-Justify-Right {
+  &:before {
+    content: unicode($icon-Justify-Right); 
+  }
+}
+.icon-Layout {
+  &:before {
+    content: unicode($icon-Layout); 
+  }
+}
+.icon-Lock {
+  &:before {
+    content: unicode($icon-Lock); 
+  }
+}
 .icon-Mail-Inbox {
   &:before {
     content: unicode($icon-Mail-Inbox); 
@@ -340,6 +355,16 @@
     content: unicode($icon-Zip); 
   }
 }
+.icon-Folder {
+  &:before {
+    content: unicode($icon-Folder); 
+  }
+}
+.icon-Font {
+  &:before {
+    content: unicode($icon-Font); 
+  }
+}
 .icon-Fork {
   &:before {
     content: unicode($icon-Fork); 
@@ -380,19 +405,9 @@
     content: unicode($icon-Justify-Left); 
   }
 }
-.icon-Justify-Right {
+.icon-File-Text {
   &:before {
-    content: unicode($icon-Justify-Right); 
-  }
-}
-.icon-Layout {
-  &:before {
-    content: unicode($icon-Layout); 
-  }
-}
-.icon-Lock {
-  &:before {
-    content: unicode($icon-Lock); 
+    content: unicode($icon-File-Text); 
   }
 }
 .icon-File-Upload {
@@ -410,19 +425,14 @@
     content: unicode($icon-Flower); 
   }
 }
-.icon-Folder {
+.icon-Exit {
   &:before {
-    content: unicode($icon-Folder); 
+    content: unicode($icon-Exit); 
   }
 }
-.icon-Font {
+.icon-External {
   &:before {
-    content: unicode($icon-Font); 
-  }
-}
-.icon-File-Text {
-  &:before {
-    content: unicode($icon-File-Text); 
+    content: unicode($icon-External); 
   }
 }
 .icon-Factory {
@@ -433,86 +443,6 @@
 .icon-File-Download {
   &:before {
     content: unicode($icon-File-Download); 
-  }
-}
-.icon-External {
-  &:before {
-    content: unicode($icon-External); 
-  }
-}
-.icon-Circle-Plus {
-  &:before {
-    content: unicode($icon-Circle-Plus); 
-  }
-}
-.icon-Circle-Skip-Left {
-  &:before {
-    content: unicode($icon-Circle-Skip-Left); 
-  }
-}
-.icon-Circle-Skip-Right {
-  &:before {
-    content: unicode($icon-Circle-Skip-Right); 
-  }
-}
-.icon-Circle-Tick {
-  &:before {
-    content: unicode($icon-Circle-Tick); 
-  }
-}
-.icon-Clock {
-  &:before {
-    content: unicode($icon-Clock); 
-  }
-}
-.icon-Contrast {
-  &:before {
-    content: unicode($icon-Contrast); 
-  }
-}
-.icon-Copy {
-  &:before {
-    content: unicode($icon-Copy); 
-  }
-}
-.icon-Cross {
-  &:before {
-    content: unicode($icon-Cross); 
-  }
-}
-.icon-Crosshair {
-  &:before {
-    content: unicode($icon-Crosshair); 
-  }
-}
-.icon-Cup {
-  &:before {
-    content: unicode($icon-Cup); 
-  }
-}
-.icon-Diamond {
-  &:before {
-    content: unicode($icon-Diamond); 
-  }
-}
-.icon-Exit {
-  &:before {
-    content: unicode($icon-Exit); 
-  }
-}
-.icon-Browser {
-  &:before {
-    content: unicode($icon-Browser); 
-  }
-}
-.icon-Calculator {
-  &:before {
-    content: unicode($icon-Calculator); 
-  }
-}
-.icon-Calendar {
-  &:before {
-    content: unicode($icon-Calendar); 
   }
 }
 .icon-Chat {
@@ -575,14 +505,59 @@
     content: unicode($icon-Circle-Play); 
   }
 }
-.icon-Align-Verticle {
+.icon-Circle-Plus {
   &:before {
-    content: unicode($icon-Align-Verticle); 
+    content: unicode($icon-Circle-Plus); 
   }
 }
-.icon-Anchor {
+.icon-Circle-Skip-Left {
   &:before {
-    content: unicode($icon-Anchor); 
+    content: unicode($icon-Circle-Skip-Left); 
+  }
+}
+.icon-Circle-Skip-Right {
+  &:before {
+    content: unicode($icon-Circle-Skip-Right); 
+  }
+}
+.icon-Circle-Tick {
+  &:before {
+    content: unicode($icon-Circle-Tick); 
+  }
+}
+.icon-Clock {
+  &:before {
+    content: unicode($icon-Clock); 
+  }
+}
+.icon-Contrast {
+  &:before {
+    content: unicode($icon-Contrast); 
+  }
+}
+.icon-Copy {
+  &:before {
+    content: unicode($icon-Copy); 
+  }
+}
+.icon-Cross {
+  &:before {
+    content: unicode($icon-Cross); 
+  }
+}
+.icon-Crosshair {
+  &:before {
+    content: unicode($icon-Crosshair); 
+  }
+}
+.icon-Cup {
+  &:before {
+    content: unicode($icon-Cup); 
+  }
+}
+.icon-Diamond {
+  &:before {
+    content: unicode($icon-Diamond); 
   }
 }
 .icon-ArcadeStick {
@@ -635,6 +610,21 @@
     content: unicode($icon-Branch); 
   }
 }
+.icon-Browser {
+  &:before {
+    content: unicode($icon-Browser); 
+  }
+}
+.icon-Calculator {
+  &:before {
+    content: unicode($icon-Calculator); 
+  }
+}
+.icon-Calendar {
+  &:before {
+    content: unicode($icon-Calendar); 
+  }
+}
 .icon-Align-Bottom {
   &:before {
     content: unicode($icon-Align-Bottom); 
@@ -658,6 +648,16 @@
 .icon-Align-Top {
   &:before {
     content: unicode($icon-Align-Top); 
+  }
+}
+.icon-Align-Verticle {
+  &:before {
+    content: unicode($icon-Align-Verticle); 
+  }
+}
+.icon-Anchor {
+  &:before {
+    content: unicode($icon-Anchor); 
   }
 }
 
