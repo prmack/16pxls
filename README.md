@@ -1,6 +1,6 @@
 # 16PXLS
 
-16x16 pixel icon set. Built specifically for balanced interfaces. Available in multiple file types. Free to use for both Commercial and Personal work.
+Born out of a need for an icon set that would align well in vertical and horizontal lists. Great for navigation, buttons, headings or lists. If you are obsessed with things lining up, then this icon set is perfect for you!
 
 ## Documentation
 
