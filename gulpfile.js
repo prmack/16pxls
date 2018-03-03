@@ -87,7 +87,7 @@ gulp.task('iconList', function(){
   .pipe(gulp.dest('dist/docs/assets/json'))
 });
 
-gulp.task('licenceComment', function(){
+gulp.task('licenseComment', function(){
   gulp.src('dist/svg/*.svg')
     .pipe(headerComment(`
       <%= _.capitalize(pkg.name) %> (c) by <%= _.capitalize(pkg.author) %>

@@ -1,3 +1,13 @@
+<!--
+ // 16pxls (c) by Paul mackenzie <paul@whatspauldoing.com>
+ //
+ // 16pxls is licensed under a
+ // Creative Commons Attribution-ShareAlike 4.0 International License.
+ //
+ // You should have received a copy of the license along with this
+ // work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+-->
+
 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 6h16v2A8 8 0 1 1 0 8V6zm2 2a6 6 0 1 0 12 0H2zm0-7h2v4H2V1zm5-1h2v4H7V0zm5 1h2v4h-2V1z" fill-rule="evenodd"/>
 </svg>
