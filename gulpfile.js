@@ -7,6 +7,7 @@ const imagemin = require('gulp-imagemin');
 const rename = require('gulp-rename');
 const svgCss = require('gulp-svg-css');
 const fileList = require('gulp-filelist');
+const headerComment = require('gulp-header-comment');
 
 // Clean & Minimise SVG
 gulp.task('cleanSVG', function(cb){
@@ -84,6 +85,26 @@ gulp.task('iconList', function(){
     removeExtensions: true
   }))
   .pipe(gulp.dest('dist/docs/assets/json'))
+});
+
+gulp.task('licenceComment', function(){
+  gulp.src('dist/Align-Bottom.svg')
+    .pipe(headerComment(`
+    Copywrite <%= moment().format('YYYY') %> <%= _.capitalize(pkg.author) %>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    `))
+    .pipe(gulp.dest('dist/'))
 });
 
 // Remove .DS_Store

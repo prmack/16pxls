@@ -51,8 +51,8 @@ During development I've used various [Gulp](http://gulpjs.com) plugins. If you w
 ## Included File Types
 
 - .SVG
-- .PNG
-- .JPG
+- .PNG (inc. Retina)
+- .JPG (inc. Retina)
 - .CSS
 - .WOFF
 - .TTF
