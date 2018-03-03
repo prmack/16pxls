@@ -76,8 +76,6 @@ gulp.task('genCss', ['cleanSVG'], function(){
     .pipe(gulp.dest('dist/css'))
 });
 
-gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'createJPG', 'createRetinaJPG', 'optimisePNG', 'optimiseJPG' , 'genCss']);
-
 // Create .JSON List of Icons
 gulp.task('iconList', function(){
   gulp.src('dist/svg/*.svg')
@@ -98,4 +96,5 @@ gulp.task('cleanIcons', function(){
   return del(['dist/png/**/*.png', 'dist/css/*.css', 'dist/jpg/**/*.jpg'])
 });
 
-gulp.task('default');
+// Process Icons Task
+gulp.task('processIcons', ['cleanSVG', 'createPNG', 'createRetinaPNG', 'createJPG', 'createRetinaJPG', 'optimisePNG', 'optimiseJPG' , 'genCss']);
