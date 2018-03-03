@@ -60,4 +60,4 @@ During development I've used various [Gulp](http://gulpjs.com) plugins. If you w
 
 ## License
 
-[Apache license 2.0](https://choosealicense.com/licenses/apache-2.0/)
+[CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/)
