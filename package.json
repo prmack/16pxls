@@ -1,11 +1,11 @@
 {
-  "name": "16pxls",
+  "name": "16PXLS",
   "version": "1.0.0",
   "description": "16px IconSet",
   "main": "",
   "repository": "git@github.com:prmack/16pxls.git",
   "author": "Paul Mackenzie <paul@whatspauldoing.com>",
-  "license": "Apache-2.0",
+  "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -20,7 +20,7 @@
     "gulp-svgmin": "^1.2.4"
   },
   "resolutions": {
-    "gulp-header-comment/commenting" : "prmack/commenting" 
+    "gulp-header-comment/commenting" : "prmack/commenting"
   },
   "dependencies": {}
 }
