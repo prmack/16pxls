@@ -7,6 +7,7 @@ Born out of a need for an icon set that would align well in vertical and horizon
 ## Documentation
 
 Reference for each icon can be accessed from `dist/docs/index.html`.
+If you've not use SVG before then I suggest you check out the [Further Reading](#further-reading) section, for a list of articles to get up to speed.
 
 #### Css
 
@@ -28,13 +29,13 @@ Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/f
 
 During development I've used various [Gulp](http://gulpjs.com) plugins. If you want to take advantage of these you can.
 
-`npm install` will install all packages needed.
+`npm install` will install all packages needed. **or** `yarn install` if thats your preferred package manager.
 
 #### Tasks
 
 - `gulp cleanSVG` - Cleans SVG exported from Sketch
 - `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs).
-- `gulp iconList` - Creates a .JSON file of all icons in /svg/ folder, useful for fallbacks. Outputs to `dist/docs/assets/json`.
+- `gulp iconList` - Creates a .JSON file of all icons in `/dist/svg/` folder, useful for fallbacks. Outputs to `dist/docs/assets/json`.
 - `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them.
 
 ## Further Reading
