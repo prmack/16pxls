@@ -95,7 +95,7 @@ gulp.task('clean', function(){
 
 // Clear Icons from Dist
 gulp.task('cleanIcons', function(){
-  return del(['dist/svg/*.svg', 'dist/png/**/*.png', 'dist/css/*.css', 'dist/jpg/**/*.jpg'])
+  return del(['dist/png/**/*.png', 'dist/css/*.css', 'dist/jpg/**/*.jpg'])
 });
 
 gulp.task('default');

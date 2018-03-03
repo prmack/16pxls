@@ -12,7 +12,7 @@ Reference for each icon can be accessed from `dist/docs/index.html`.
 
 Include `16pxls.css` in your `<head>` tags, or `@import url('');` in your Css.
 
-`<link rel="stylesheet" href="assets/css/16pxls.css">` **or** `@import url('16pxls.css');`
+`<link rel="stylesheet" href="/dist/css/16pxls.css">` **or** `@import url('16pxls.css');`
 
 Add the class `.icon-*` replacing the `*` with the name of the icon you want to use.
 
@@ -26,16 +26,21 @@ Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/f
 
 ## Gulp
 
-During development I've used various Gulp plugins. If you want to take advantage of these you can.
+During development I've used various [Gulp](http://gulpjs.com) plugins. If you want to take advantage of these you can.
 
 `npm install` will install all packages needed.
 
 #### Tasks
 
 - `gulp cleanSVG` - Cleans SVG exported from Sketch
-- `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them. Also useful if you decided to create your own icon set!
-- `gulp cleanIcons` - Used to remove all icons from folders.
+- `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs).
+- `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them.
 
+## Further Reading
+
+- [Using SVG - CSS Tricks](https://css-tricks.com/using-svg/)
+- [SVG & CSS - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)
+- [A Complete Guide to SVG Fallbacks - CSS Tricks](https://css-tricks.com/a-complete-guide-to-svg-fallbacks/)
 
 ## Included File Types
 
