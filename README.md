@@ -29,7 +29,7 @@ Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/f
 
 During development I've used various [Gulp](http://gulpjs.com) plugins. If you want to take advantage of these you can.
 
-`npm install` will install all packages needed. **or** `yarn install` if thats your preferred package manager.
+`npm install` **or** `yarn install` depending on your preferred package manager.
 
 #### Tasks
 
@@ -37,6 +37,10 @@ During development I've used various [Gulp](http://gulpjs.com) plugins. If you w
 - `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs).
 - `gulp iconList` - Creates a .JSON file of all icons in `/dist/svg/` folder, useful for fallbacks. Outputs to `dist/docs/assets/json`.
 - `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them.
+
+#### Recommended Plugins
+
+- [gulp-embed-svg](https://www.npmjs.com/package/gulp-embed-svg). Great for embedding SVG data whilst keeping code clean during development.
 
 ## Further Reading
 
