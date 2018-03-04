@@ -20,7 +20,6 @@
     "gulp-svgmin": "^1.2.4"
   },
   "resolutions": {
-    "gulp-header-comment/commenting" : "prmack/commenting"
   },
   "dependencies": {}
 }
