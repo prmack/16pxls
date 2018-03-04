@@ -1,10 +1,10 @@
 @font-face {
   font-family: '16pxls';
-  src:  url('fonts/16pxls.eot?wz2rvy');
-  src:  url('fonts/16pxls.eot?wz2rvy#iefix') format('embedded-opentype'),
-    url('fonts/16pxls.ttf?wz2rvy') format('truetype'),
-    url('fonts/16pxls.woff?wz2rvy') format('woff'),
-    url('fonts/16pxls.svg?wz2rvy#16pxls') format('svg');
+  src:  url('fonts/16pxls.eot?c45so3');
+  src:  url('fonts/16pxls.eot?c45so3#iefix') format('embedded-opentype'),
+    url('fonts/16pxls.ttf?c45so3') format('truetype'),
+    url('fonts/16pxls.woff?c45so3') format('woff'),
+    url('fonts/16pxls.svg?c45so3#16pxls') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -309,7 +309,7 @@
 .icon-Smile:before {
   content: "\e921";
 }
-.icon-Sort-Assending:before {
+.icon-Sort-Ascending:before {
   content: "\e922";
 }
 .icon-Sort-Descending:before {

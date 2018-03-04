@@ -108,7 +108,7 @@
 		'icon-Share': '&#xe91f;',
 		'icon-Skull': '&#xe920;',
 		'icon-Smile': '&#xe921;',
-		'icon-Sort-Assending': '&#xe922;',
+		'icon-Sort-Ascending': '&#xe922;',
 		'icon-Sort-Descending': '&#xe923;',
 		'icon-Sound-Off': '&#xe924;',
 		'icon-Sound-On': '&#xe925;',
