@@ -139,6 +139,12 @@
 .icon-file-download {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M7 5.222V0h2v5.193l1.107-1.107L11.52 5.5 7.986 9.036 4.45 5.5l1.414-1.414L7 5.222zM16 11v5H0v-5h2v3h12v-3h2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
+.icon-file-text-add {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M14 8h-2V6l.002-4H2v12h6v2H0V0h14v8zM4 4h6v2H4V4zm0 4h6v2H4V8zm6 4h2v-2h2v2h2v2h-2v2h-2v-2h-2v-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.icon-file-text-remove {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M14 8h-2V6l.002-4H2v12h6v2H0V0h14v8zM4 4h6v2H4V4zm0 4h6v2H4V8zm6 4h6v2h-6v-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
 .icon-file-text {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E    %3Cpath d='M0 0h14v2h2v14H0V0zm2 2v12h12V4h-1.998V2H2zm2 6h8v2H4V8zm0-4h6v2H4V4z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
