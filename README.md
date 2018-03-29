@@ -9,6 +9,12 @@ Born out of a need for an icon set that would align well in vertical and horizon
 Reference for each icon can be accessed from `dist/docs/index.html`.
 If you've not use SVG before then I suggest you check out the [Further Reading](#further-reading) section, for a list of articles to get up to speed.
 
+#### Installation
+
+`npm install 16pxls` or `yarn install 16pxls`
+
+If you are not using a package manager then feel free to just download the zip off Github.
+
 #### Css
 
 Include `16pxls.css` in your `<head>` tags, or `@import url('');` in your Css.
