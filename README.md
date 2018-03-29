@@ -9,7 +9,7 @@ If you've not use SVG before then I suggest you check out the [Further Reading](
 
 #### Installation
 
-`npm install 16pxls` or `yarn install 16pxls`
+`npm install 16pxls` or `yarn add 16pxls`
 
 If you are not using a package manager then feel free to just download the zip off Github.
 
