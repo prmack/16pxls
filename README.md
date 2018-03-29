@@ -34,7 +34,7 @@ During development I've used various [Gulp](http://gulpjs.com) plugins. If you w
 #### Tasks
 
 - `gulp cleanSVG` - Cleans SVG exported from Sketch
-- `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs).
+- `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs), useful if you only want to use a few SVGs.
 - `gulp iconList` - Creates a .JSON file of all icons in `/dist/svg/` folder, useful for fallbacks. Outputs to `dist/docs/assets/json`.
 - `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them.
 
@@ -57,6 +57,7 @@ During development I've used various [Gulp](http://gulpjs.com) plugins. If you w
 - .WOFF
 - .TTF
 - .EOT
+- .FIG (for Figma)
 
 ## License
 
