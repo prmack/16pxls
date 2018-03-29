@@ -1,10 +1,11 @@
 {
-  "name": "16PXLS",
+  "name": "16pxls",
   "version": "1.0.1",
   "description": "16px Icon Set",
   "main": "",
+  "directories" : "dist",
   "repository": "git@github.com:prmack/16pxls.git",
-  "author": "Paul Mackenzie <paul@whatspauldoing.com>",
+  "author": "Paul Mackenzie <whatspauldoing.com>",
   "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "del": "^3.0.0",
