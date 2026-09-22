@@ -2,65 +2,46 @@ Born out of a need for an icon set that would align well in vertical and horizon
 
 ![Alt text](/dist/docs/assets/images/readme.png?raw=true "Preview of Icons")
 
+## v2
+
+Version 2 drops the icon font and PNG/JPG output in favour of SVG only: an SVG sprite, individual SVG files, and a CSS file for background-image classes. v1 (icon font, PNG, JPG) is still published on npm as `16pxls@1` if you need it.
+
 ## Documentation
 
-Reference for each icon can be accessed from `dist/docs/index.html`.
-If you've not use SVG before then I suggest you check out the [Further Reading](#further-reading) section, for a list of articles to get up to speed.
+Icon names are listed in `dist/docs/assets/json/iconList.json`.
 
-#### Installation
+## Installation
 
 `npm install 16pxls` or `yarn add 16pxls`
 
-If you are not using a package manager then feel free to just download the zip off Github.
+## Usage
 
-#### Css
+### CSS background classes
 
-Include `16pxls.css` in your `<head>` tags, or `@import url('');` in your Css.
+`<link rel="stylesheet" href="node_modules/16pxls/dist/css/16pxls.css">` or `@import '16pxls/css';`
 
-`<link rel="stylesheet" href="/dist/css/16pxls.css">` **or** `@import url('16pxls.css');`
+```html
+<span class="icon icon-Skull"></span>
+```
 
-Add the class `.icon-*` replacing the `*` with the name of the icon you want to use.
+### SVG sprite
 
-`<span class="icon-Skull"></span>`
+```html
+<svg class="icon"><use href="node_modules/16pxls/dist/sprite.svg#icon-Skull"></use></svg>
+```
 
-This will add the icon as an SVG background image. You may want to create a separate class to style the container. e.g. `.icon {display:inline-block;width:16px;height:16px;}`
+### Individual SVGs
 
-#### Font
+Import a single icon directly, e.g. with a bundler: `import skull from '16pxls/svg/Skull.svg'`.
 
-Font has been built using [IcoMoon App](https://icomoon.io/), within the `dist/fonts/` folder you'll find the `demo.html` and `readme.txt` detailing how to use it.
+## Building from source
 
-## Gulp
-
-During development I've used various [Gulp](http://gulpjs.com) plugins. If you want to take advantage of these you can.
-
-`npm install` **or** `yarn install` depending on your preferred package manager.
-
-#### Tasks
-
-- `gulp cleanSVG` - Cleans SVG exported from Sketch
-- `gulp cleanIcons` - Used to remove all icons from folders (not .SVGs), useful if you only want to use a few SVGs.
-- `gulp iconList` - Creates a .JSON file of all icons in `/dist/svg/` folder, useful for fallbacks. Outputs to `dist/docs/assets/json`.
-- `gulp processIcons` - Runs multiple tasks, in order, cleaning SVGs, converting them to image files (including Retina), and optimising. You could run this if you decided to only use a certain number of icons rather than uploading all of them.
-
-#### Recommended Plugins
-
-- [gulp-embed-svg](https://www.npmjs.com/package/gulp-embed-svg). Great for embedding SVG data whilst keeping code clean during development.
-
-## Further Reading
-
-- [Using SVG - CSS Tricks](https://css-tricks.com/using-svg/)
-- [SVG & CSS - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)
-- [A Complete Guide to SVG Fallbacks - CSS Tricks](https://css-tricks.com/a-complete-guide-to-svg-fallbacks/)
+`npm install`, then `npm run build`. Reads raw SVGs from `src/svg`, writes optimised SVGs, the sprite, the CSS and the icon list to `dist/`.
 
 ## Included File Types
 
 - .SVG
-- .PNG (inc. Retina)
-- .JPG (inc. Retina)
 - .CSS
-- .WOFF
-- .TTF
-- .EOT
 - .FIG (for Figma)
 
 ## License
